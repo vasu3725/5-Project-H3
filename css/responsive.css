@@ -616,6 +616,22 @@
     margin-top: -35px;
 }
 
+/* ************************************************************** */
+.order-foods-txt
+{
+    margin-bottom: 320px;
+}
+
+.order-foods-img img
+{
+    width: 400px;
+
+    position: absolute;
+    bottom: -20px;
+    right: 250px;
+    z-index: 1;
+}
+
 }
 
 
@@ -1183,6 +1199,24 @@
     border-radius: 50px;
 }
 
+/* ************************************************************** */
+
+.order-foods-txt
+{
+    margin-bottom: 230px;
+}
+
+.order-foods-img img
+{
+    width: 300px;
+
+    position: absolute;
+    bottom: -20px;
+    right: 250px;
+    z-index: 1;
+}
+
+
 }
 
 /* ************************************************************************** */
@@ -1399,7 +1433,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .new-customer-offer
@@ -1411,27 +1445,27 @@
 {
     color: #4FAEAA;
     font-family: 'Nunito-Bold';
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
 .new-customer-offer h5
 {
-    width: 300px;
+    width: 250px;
     color: #000;
     font-family: 'Nunito-Bold';
     margin: 0 auto;
-    font-size: 15px;
+    font-size: 13px;
     margin-bottom: 10px;
 }
 
 .new-customer-offer p
 {
     color: #000;
-    width: 300px;
+    width: 250px;
     margin: 0 auto;
-    font-size: 11px;
-    margin-bottom: 20px;
+    font-size: 10px;
+    margin-bottom: 10px;
 }
 
 .new-customer-offer a
@@ -1439,7 +1473,7 @@
     color: #fff;
     background: #4FAEAA;
     border: 2px solid #4FAEAA;
-    padding: 10px 30px;
+    padding: 7px 20px;
     border-radius: 50px;
     font-size: 10px;
 }
@@ -1449,7 +1483,7 @@
     color: #4FAEAA;
     background: transparent;
     border: 2px solid #4FAEAA;
-    padding: 10px 30px;
+    padding: 7px 20px;
     border-radius: 50px;
 }
 
@@ -2007,11 +2041,31 @@
     left: 170px;
 }
 
+/* ************************************************************** */
+
+.order-foods-txt
+{
+    margin-bottom: 230px;
+}
+
+.order-foods-img img
+{
+    width: 300px;
+
+    position: absolute;
+    bottom: -20px;
+    right: 150px;
+    z-index: 1;
+}
+
+
+
 }
 
 /* ************************************************************************** */
 
 @media screen and (max-width:480px){
+
     .nav {
         padding: 1rem;
     }
@@ -2505,6 +2559,19 @@
     bottom: 10px;
     left: 120px;
 }
+
+.our-menu-content h3
+{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
 
 }
 
