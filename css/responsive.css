@@ -1,0 +1,2440 @@
+@media screen and (min-width:1241px) and (max-width:1500px){
+
+    .franchise
+    {
+        position: relative;
+        margin: 40px 0px;
+    }
+    
+    .franchise img
+    {
+        width: 100%;
+    }
+    
+    .franchise-txt 
+    {
+        position: absolute;
+        z-index: 1;
+        top: 160px;
+        right: 40px;
+    }
+    
+    .franchise-txt h2
+    {
+        color: #000;
+        width: 400px;
+        font-family: 'Nunito-Bold';
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    
+    .franchise-txt p
+    {
+        color: #000;
+        width: 500px;
+        font-size: 15px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    
+    .your-email
+    {
+        display: flex;
+    }
+    
+    .your-email
+    {
+        position: relative;
+    }
+    
+    .franchise-txt input
+    {
+        border: none;
+        padding: 17px;
+        padding-right: 28%;
+        border-bottom-left-radius: 7px;
+        border-top-left-radius: 25px;
+    }
+    
+    .your-email a
+    {
+        color: #fff;
+        border: 2px solid #4FAEAA;
+        background: #4FAEAA;
+        font-family: 'Nunito-Bold';
+        padding: 17px 25px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 7px;
+        border-top-left-radius: 25px;
+    
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+    }
+    
+    .your-email a:hover
+    {
+        color: #4FAEAA;
+        border: 2px solid #4FAEAA;
+        background: #fff;
+        font-family: 'Nunito-Bold';
+        padding: 17px 25px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 7px;
+        border-top-left-radius: 25px;
+    }
+
+/* ************************************************************************** */
+
+.new-customer-offer-bg
+{
+    background-image: url(../images/p3\ new\ customer\ offer\ bg.png);
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 90px 0px;
+}
+
+.new-customer-offer
+{
+    text-align: center;
+}
+
+.new-customer-offer h2
+{
+    color: #4FAEAA;
+    font-family: 'Nunito-Bold';
+    /* font-size: 28px; */
+    margin-bottom: 15px;
+}
+
+.new-customer-offer h5
+{
+    width: 300px;
+    color: #000;
+    font-family: 'Nunito-Bold';
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.new-customer-offer p
+{
+    color: #000;
+    width: 390px;
+    margin: 0 auto;
+    
+    margin-bottom: 25px;
+}
+
+.new-customer-offer a
+{
+    color: #fff;
+    background: #4FAEAA;
+    border: 2px solid #4FAEAA;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+.new-customer-offer a:hover
+{
+    color: #4FAEAA;
+    background: transparent;
+    border: 2px solid #4FAEAA;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+}
+
+/* ************************************************************************** */
+
+@media screen and (min-width:1025px) and (max-width:1240px){
+	
+.our-story
+{
+    display: none;
+}
+
+.started-image img
+{
+    width: 370px;
+}
+
+.poke-txt 
+{
+    width: 330px;
+    background: #4FAEAA;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+    font-size: 13px;
+
+    position: relative;
+
+    position: absolute;
+    z-index: 1;
+    bottom: 20px;
+    left: 0;
+}
+
+.poke-txt p
+{
+    width: 280px;
+    color: #fff;
+    text-align: left;
+    font-family: 'Nunito-Regular';
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.poke-txt h6
+{
+    font-size: 12px;
+    text-align: right;
+    font-family: 'Nunito-Bold';
+}
+
+.poke-img img
+{
+    width: 35px;
+
+    position: absolute;
+    z-index: 1;
+    top: -7px;
+    left: -15px;
+}
+
+.td-food-img img
+{
+    width: 470px;
+}
+
+.solution-btn
+{
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 60px;
+}
+
+.brand-head-btn
+{
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.brand h6
+{
+    color: #4FAEAA;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+
+.brand h2
+{
+    color: #000;
+    font-family: 'Nunito-Bold';
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.review-img img
+{
+    width: 510px;
+    height: 100%;
+}
+
+.review-txt p
+{
+    width: 470px;
+    color: #000;
+    font-size: 10px;
+}
+
+.review-arrow
+{
+    display: flex;
+
+    position: absolute;
+    z-index: 9;
+    bottom: 33px;
+    left: 439px;
+}
+
+.shipping
+{
+    display: flex;
+    background: #fff;
+    padding: 30px 0px;
+    margin-top: -20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 9;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* ***************************************************************** */
+
+.franchise
+{
+    position: relative;
+    margin: 40px 0px;
+}
+
+.franchise-txt 
+{
+    position: absolute;
+    z-index: 1;
+    top: 130px;
+    right: 40px;
+}
+
+.franchise-txt h2
+{
+    color: #000;
+    width: 400px;
+    font-family: 'Nunito-Bold';
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align: left;
+}
+.franchise-txt p
+{
+    color: #000;
+    width: 450px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+/* ***************************************************************************************** */
+
+.food-before img
+{
+    width: 100%;
+    margin-top: -35px;
+}
+
+/* ************************************************************************************************** */
+
+
+}
+
+/* ************************************************************************** */
+
+@media screen and (min-width:992px) and (max-width:1024px){
+
+.started-txt h6
+{
+    color: #4FAEAA;
+    margin-bottom: 15px;
+}
+
+.started-txt h1
+{
+    width: 400px;
+    color: #000;
+    font-family: 'Nunito-Bold';
+    font-size: 35px;
+    line-height: 55px;
+    margin-bottom: 15px;
+}
+
+.started-txt p
+{
+    width: 420px;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+.started-image img
+{
+    width: 370px;
+}
+
+.poke-txt 
+{
+    width: 330px;
+    background: #4FAEAA;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+    font-size: 13px;
+
+    position: relative;
+
+    position: absolute;
+    z-index: 1;
+    bottom: 20px;
+    left: 0;
+}
+
+.poke-txt p
+{
+    width: 280px;
+    color: #fff;
+    text-align: left;
+    font-family: 'Nunito-Regular';
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.poke-txt h6
+{
+    font-size: 12px;
+    text-align: right;
+    font-family: 'Nunito-Bold';
+}
+
+.poke-img img
+{
+    width: 35px;
+
+    position: absolute;
+    z-index: 1;
+    top: -7px;
+    left: -15px;
+}
+
+.td-food-img img
+{
+    width: 445px;
+    margin: 40px;
+}
+
+.review-img img
+{
+    width: 495px;
+    height: 100%;
+}
+
+.review-txt p
+{
+    width: 430px;
+    color: #000;
+    font-size: 10px;
+    margin-left: 1px;
+}
+
+.review-arrow
+{
+    display: flex;
+
+    position: absolute;
+    z-index: 9;
+    bottom: 43px;
+    left: 422px;
+}
+
+.shipping
+{
+    display: flex;
+    background: #fff;
+    padding: 30px 0px;
+    margin-top: -20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 9;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.footer a
+{
+    font-size: 15px;
+}
+
+.footer p
+{
+    font-size: 15px;
+}
+
+/* *********************************************************************** */
+
+	.franchise
+{
+    position: relative;
+    margin: 40px 0px;
+}
+
+.franchise-txt 
+{
+    position: absolute;
+    z-index: 1;
+    top: 130px;
+    right: 40px;
+}
+
+.franchise-txt h2
+{
+    color: #000;
+    width: 400px;
+    font-family: 'Nunito-Bold';
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align: left;
+}
+
+.franchise-txt p
+{
+    color: #000;
+    width: 450px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.love-food-after img
+{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+    margin-bottom: -60px;
+}
+
+/* ************************************************************************** */
+
+.new-customer-offer-bg
+{
+    background-image: url(../images/p3\ new\ customer\ offer\ bg.png);
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 45px 0px;
+}
+
+.new-customer-offer
+{
+    text-align: center;
+}
+
+.new-customer-offer h2
+{
+    color: #4FAEAA;
+    font-family: 'Nunito-Bold';
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.new-customer-offer h5
+{
+    width: 300px;
+    color: #000;
+    font-family: 'Nunito-Bold';
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.new-customer-offer p
+{
+    color: #000;
+    width: 390px;
+    margin: 0 auto;
+    
+    margin-bottom: 25px;
+}
+
+.new-customer-offer a
+{
+    color: #fff;
+    background: #4FAEAA;
+    border: 2px solid #4FAEAA;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+.new-customer-offer a:hover
+{
+    color: #4FAEAA;
+    background: transparent;
+    border: 2px solid #4FAEAA;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+/* ************************************************************************************ */
+
+.tfood-img-txt
+{
+    margin-top: 20px;
+}
+
+.tfood-img-txt h6
+{
+    font-size: 10px;
+    color: #fff;
+    font-family: 'Nunito-Bold';
+    margin-bottom: 10px;
+}
+
+.tfood-img-txt p
+{
+    color: #fff;
+    width: 220px;
+    font-size: 8px;
+    margin-bottom: 10px;
+}
+
+.tfood-img-btn a
+{
+    color: #fff;
+    background: #42928f;
+    border: 2px solid #42928f;
+    font-family: 'Nunito-Bold';
+    font-size: 10px;
+    padding: 7px 15px;
+    border-radius: 50px;
+}
+
+.tfood-img-btn a:hover
+{
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    font-family: 'Nunito-Bold';
+    font-size: 10px;
+    padding: 7px 15px;
+    border-radius: 50px;
+}
+/* ***************************************************************************************** */
+
+.food-before img
+{
+    width: 100%;
+    margin-top: -35px;
+}
+
+}
+
+
+/* ************************************************************************** */
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .nav {
+        padding: 1rem;
+    }
+    .nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding-top: 0.2rem;
+    }
+    .nav-btn label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+        margin-top: 25px;
+    }
+    .nav-btn label span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #000;
+    }
+    .nav-list {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        background-color: #4FAEAA;
+        height: 0;
+        transition: all 0.3s ease-in;
+        top: 93px;
+        left: 0;
+        overflow: hidden;
+        z-index: 9;
+    }
+    .nav-list li {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    #nav-check:checked ~ .nav-list {
+        height: calc(100vh - 50px);
+    }
+
+    .nav-menu.active {
+        border-bottom: 5px solid #fff;
+        padding-bottom: 10px;
+        transition: none;
+    }    
+	
+/* ******************************************************************** */
+
+.started-txt
+{
+    margin-bottom: 0px;
+}
+
+.treditional-food
+{
+    padding-top: 0px;
+}
+
+.started-image img
+{
+    width: 370px;
+    margin-left: 120px;
+}
+
+.poke-txt 
+{
+    left: 20px;
+}
+
+.td-food-img
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.solution-btn
+{
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 260px;
+}
+
+.brand-head-btn
+{
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.brand h6
+{
+    color: #4FAEAA;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.brand h2
+{
+    color: #000;
+    font-family: 'Nunito-Bold';
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+
+/* ******************************************************************** */
+
+.choose-us-img
+{
+    margin-top: 50px;
+}
+
+.choose-us-img img
+{
+    width: 500px;
+}
+
+.franchise
+{
+    position: relative;
+    margin: 40px 0px;
+}
+
+.franchise-txt 
+{
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    right: 20px;
+}
+
+.franchise-txt h2
+{
+    color: #000;
+    width: 250px;
+    font-family: 'Nunito-Bold';
+    margin-bottom: 10px;
+    font-size: 17px;
+    text-align: left;
+}
+
+.franchise-txt p
+{
+    color: #000;
+    width: 350px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.your-email
+{
+    display: flex;
+}
+
+.your-email
+{
+    position: relative;
+}
+
+.franchise-txt input
+{
+    border: none;
+    padding: 8px;
+    padding-right: 10%;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 15px;
+}
+
+.franchise-txt input::placeholder
+{
+    font-size: 13px;
+}
+
+.your-email a
+{
+    color: #fff;
+    border: 2px solid #4FAEAA;
+    background: #4FAEAA;
+    font-family: 'Nunito-Bold';
+    padding: 11px 20px;
+    font-size: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 25px;
+
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 20px;
+}
+
+.your-email a:hover
+{
+    color: #4FAEAA;
+    border: 2px solid #4FAEAA;
+    background: #fff;
+    font-family: 'Nunito-Bold';
+    padding: 11px 20px;
+    font-size: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 25px;
+}
+
+.loved-food-img
+{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loved-food-img img
+{
+    width: 450px;
+}
+
+.love-food-after img
+{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+    margin-bottom: -117px;
+}
+
+.review-img img
+{
+    width: 735px;
+}
+
+.review-arrow {
+    display: flex;
+    position: absolute;
+    z-index: 9;
+    bottom: 5px;
+    left: 615px;
+}
+
+/* ************************* Product ********************* */
+.offer-product-txt-beverages
+{
+    text-align: left;
+
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    left: 50px;
+}
+
+.offer-product-txt-beverages h6
+{
+    font-size: 20px;
+}
+
+.offer-product-txt-beverages h5
+{
+    font-size: 35px;
+}
+
+.offer-product-txt-beverages h4
+{
+    font-size: 25px;
+}
+
+.offer-product-txt-beverages a
+{
+    font-size: 20px;
+}
+
+/* ===================== */
+
+.offer-product-bg-ice-cream
+{
+    position: relative;
+}
+
+.offer-product-txt-ice-cream
+{
+    text-align: left;
+
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 20px;
+}
+
+.offer-product-txt-ice-cream h6
+{
+    font-size: 20px;
+}
+
+.offer-product-txt-ice-cream h5
+{
+    font-size: 25px;
+}
+
+.offer-product-txt-ice-cream h4
+{
+    font-size: 20px;
+}
+
+.offer-product-txt-ice-cream a
+{
+    font-size: 15px;
+}
+
+/* ================================== */
+
+.offer-product-bg-poke
+{
+    position: relative;
+}
+
+.offer-product-txt-poke
+{
+    text-align: left;
+
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 20px;
+}
+
+.offer-product-txt-poke h6
+{
+    font-size: 20px;
+}
+
+.offer-product-txt-poke h5
+{
+    font-size: 25px;
+}
+
+.offer-product-txt-poke h4
+{
+    font-size: 20px;
+}
+
+.offer-product-txt-poke a
+{
+    font-size: 15px;
+}
+
+/* ************************************************************************** */
+
+.new-customer-offer-bg
+{
+    background-image: url(../images/p3\ new\ customer\ offer\ bg.png);
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 90px 0px;
+    padding-top: 10px;
+}
+
+.new-customer-offer
+{
+    text-align: center;
+}
+
+.new-customer-offer h2
+{
+    color: #4FAEAA;
+    font-family: 'Nunito-Bold';
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.new-customer-offer h5
+{
+    width: 300px;
+    color: #000;
+    font-family: 'Nunito-Bold';
+    margin: 0 auto;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.new-customer-offer p
+{
+    color: #000;
+    width: 350px;
+    margin: 0 auto;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+.new-customer-offer a
+{
+    color: #fff;
+    background: #4FAEAA;
+    border: 2px solid #4FAEAA;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 12px;
+}
+
+.new-customer-offer a:hover
+{
+    color: #4FAEAA;
+    background: transparent;
+    border: 2px solid #4FAEAA;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 12px;
+}
+
+/* ************************************************** */
+
+.beverages-food-img-txt
+{
+    width: 100%;
+    text-align: center;
+}
+
+.beverages-food-img-txt h5
+{
+    color: #000;
+    font-family: 'Nunito-Bold';
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.food-five-star
+{
+    display: flex;
+    justify-content: center;
+}
+
+.food-five-star img
+{
+    width: 130px;
+    margin-bottom: 15px;
+}
+
+.bevrages-food-price
+{
+    width: 240px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.bevrages-food-price h6
+{
+    color: #000;
+    font-family: 'Nunito-bold';
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+.bevrages-food-price p
+{
+    color: #9F9F9F;
+    font-size: 13px;
+}
+
+
+/* ************************************************************************************ */
+
+.tfood-img-txt
+{
+    margin-top: 20px;
+}
+
+.tfood-img-txt h6
+{
+    font-size: 10px;
+    color: #fff;
+    font-family: 'Nunito-Bold';
+    margin-bottom: 10px;
+}
+
+.tfood-img-txt p
+{
+    color: #fff;
+    width: 180px;
+    font-size: 8px;
+    margin-bottom: 10px;
+}
+
+.tfood-img-btn a
+{
+    color: #fff;
+    background: #42928f;
+    border: 2px solid #42928f;
+    font-family: 'Nunito-Bold';
+    font-size: 10px;
+    padding: 7px 15px;
+    border-radius: 50px;
+}
+
+.tfood-img-btn a:hover
+{
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    font-family: 'Nunito-Bold';
+    font-size: 10px;
+    padding: 7px 15px;
+    border-radius: 50px;
+}
+
+}
+
+/* ************************************************************************** */
+
+@media (max-width: 767px){
+    .nav {
+        padding: 1rem;
+    }
+    .nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding-top: 0.2rem;
+    }
+    .nav-btn label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+        margin-top: 25px;
+    }
+    .nav-btn label span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #000;
+    }
+    .nav-list {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        background-color: #4FAEAA;
+        height: 0;
+        transition: all 0.3s ease-in;
+        top: 93px;
+        left: 0;
+        overflow: hidden;
+        z-index: 9;
+    }
+    .nav-list li {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    #nav-check:checked ~ .nav-list {
+        height: calc(100vh - 50px);
+    }
+
+    .nav-menu.active {
+        border-bottom: 5px solid #fff;
+        padding-bottom: 10px;
+        transition: none;
+    }    
+    .choose-us-img
+    {
+        margin-top: 50px;
+    }
+    
+    .choose-us-img img
+    {
+        width: 500px;
+    }
+    
+    .franchise
+    {
+        position: relative;
+        margin: 40px 0px;
+    }
+    
+    .franchise-txt 
+    {
+        position: absolute;
+        z-index: 1;
+        top: 100px;
+        right: 40px;
+    }
+    
+    .franchise-txt h2
+    {
+        color: #000;
+        width: 300px;
+        font-family: 'Nunito-Bold';
+        margin-bottom: 10px;
+        font-size: 20px;
+        text-align: left;
+    }
+    
+    .franchise-txt p
+    {
+        color: #000;
+        width: 330px;
+        font-size: 10px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .your-email
+    {
+        display: flex;
+    }
+    
+    .your-email
+    {
+        position: relative;
+    }
+    
+    .franchise-txt input
+    {
+        border: none;
+        padding: 8px;
+        padding-right: 28%;
+        border-bottom-left-radius: 7px;
+        border-top-left-radius: 15px;
+    
+    }
+    
+    .your-email a
+    {
+        color: #fff;
+        border: 2px solid #4FAEAA;
+        background: #4FAEAA;
+        font-family: 'Nunito-Bold';
+        padding: 11px 20px;
+        font-size: 10px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 7px;
+        border-top-left-radius: 25px;
+    
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+    }
+    
+    .your-email a:hover
+    {
+        color: #4FAEAA;
+        border: 2px solid #4FAEAA;
+        background: #fff;
+        font-family: 'Nunito-Bold';
+        padding: 11px 20px;
+        font-size: 10px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 7px;
+        border-top-left-radius: 25px;
+    }
+
+    .love-food-after img
+{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+    margin-bottom: -50px;
+}
+/* ************************************************************************** */
+
+.new-customer-offer-bg
+{
+    background-image: url(../images/p3\ new\ customer\ offer\ bg.png);
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.new-customer-offer
+{
+    text-align: center;
+}
+
+.new-customer-offer h2
+{
+    color: #4FAEAA;
+    font-family: 'Nunito-Bold';
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.new-customer-offer h5
+{
+    width: 300px;
+    color: #000;
+    font-family: 'Nunito-Bold';
+    margin: 0 auto;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.new-customer-offer p
+{
+    color: #000;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+
+.new-customer-offer a
+{
+    color: #fff;
+    background: #4FAEAA;
+    border: 2px solid #4FAEAA;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 10px;
+}
+
+.new-customer-offer a:hover
+{
+    color: #4FAEAA;
+    background: transparent;
+    border: 2px solid #4FAEAA;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+/* ************************************************** */
+
+.beverages-food-img-txt
+{
+    width: 100%;
+    text-align: center;
+}
+
+.beverages-food-img-txt h5
+{
+    color: #000;
+    font-family: 'Nunito-Bold';
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.food-five-star
+{
+    display: flex;
+    justify-content: center;
+}
+
+.food-five-star img
+{
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.bevrages-food-price
+{
+    width: 240px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.bevrages-food-price h6
+{
+    color: #000;
+    font-family: 'Nunito-bold';
+    margin-left: 15px;
+    margin-right: 25px;
+    font-size: 12px;
+}
+
+.bevrages-food-price p
+{
+    color: #9F9F9F;
+    font-size: 12px;
+}
+
+
+/* ************************************************************************************ */
+
+.tfood-img-txt
+{
+    margin-top: 20px;
+}
+
+.tfood-img-txt h6
+{
+    font-size: 10px;
+    color: #fff;
+    font-family: 'Nunito-Bold';
+    margin-bottom: 10px;
+}
+
+.tfood-img-txt p
+{
+    color: #fff;
+    width: 170px;
+    font-size: 8px;
+    margin-bottom: 10px;
+}
+
+.tfood-img-btn a
+{
+    color: #fff;
+    background: #42928f;
+    border: 2px solid #42928f;
+    font-family: 'Nunito-Bold';
+    font-size: 10px;
+    padding: 7px 15px;
+    border-radius: 50px;
+}
+
+.tfood-img-btn a:hover
+{
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    font-family: 'Nunito-Bold';
+    font-size: 10px;
+    padding: 7px 15px;
+    border-radius: 50px;
+}
+/* ***************************************************************************************** */
+
+.food-before img
+{
+    width: 100%;
+    margin-top: -35px;
+}
+
+/* ************************************************************************************************** */
+
+.solution-btn
+{
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 240px;
+}
+
+}
+
+/* ************************************************************************** */
+
+@media screen and (max-width:575px){
+    .nav {
+        padding: 1rem;
+    }
+    .nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding-top: 0.2rem;
+    }
+    .nav-btn label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+        margin-top: 25px;
+    }
+    .nav-btn label span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #000;
+    }
+    .nav-list {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        background-color: #4FAEAA;
+        height: 0;
+        transition: all 0.3s ease-in;
+        top: 93px;
+        left: 0;
+        overflow: hidden;
+        z-index: 9;
+    }
+    .nav-list li {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    #nav-check:checked ~ .nav-list {
+        height: calc(100vh - 50px);
+    }
+
+    .nav-menu.active {
+        border-bottom: 5px solid #fff;
+        padding-bottom: 10px;
+        transition: none;
+    }  
+    
+/* ***************************************************************** */
+.started-image img
+{
+    width: 370px;
+    margin-left: 120px;
+}
+
+.poke-txt 
+{
+    left: 20px;
+}
+
+.td-food-img
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review-img img
+{
+    width: 545px;
+    height: 100%;
+}
+
+.review-arrow
+{
+    display: flex;
+
+    position: absolute;
+    z-index: 9;
+    bottom: 5px;
+    left: 424px;
+}
+
+.loved-food-img
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loved-food-img img
+{
+    width: 400px;
+    margin-top: 40px;
+}
+
+.shipping-service img
+{
+    width: 50px;
+}
+
+.shipping-truck
+{
+    margin-bottom: 40px;
+}
+
+.shipping-rs
+{
+    margin-bottom: 20px;
+}
+
+.shipping-protection
+{
+    margin-bottom: 20px;
+}
+
+.shipping-service h5
+{
+    font-size: 15px;
+}
+
+.shipping-service p
+{
+    font-size: 10px;
+}
+
+/* ***************************************************************** */
+
+	.choose-us-img
+    {
+        margin-top: 50px;
+    }
+    
+    .choose-us-img img
+    {
+        width: 500px;
+    }
+    
+    .franchise
+    {
+        position: relative;
+        margin: 40px 0px;
+    }
+    
+    .franchise-txt 
+    {
+        position: absolute;
+        z-index: 1;
+        top: 70px;
+        right: 40px;
+    }
+    
+    .franchise-txt h2
+    {
+        color: #000;
+        width: 200px;
+        font-family: 'Nunito-Bold';
+        margin-bottom: 7px;
+        font-size: 15px;
+        text-align: left;
+    }
+    
+    .franchise-txt p
+    {
+        color: #000;
+        width: 230px;
+        font-size: 7px;
+        margin-bottom: 7px;
+        text-align: left;
+    }
+
+    .your-email
+    {
+        display: flex;
+    }
+    
+    .your-email
+    {
+        position: relative;
+    }
+    
+    .franchise-txt input
+    {
+        border: none;
+        padding: 5px;
+        padding-right: 5%;
+        border-bottom-left-radius: 7px;
+        border-top-left-radius: 15px;    
+    }
+
+    .franchise-txt input::placeholder
+    {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+    
+    .your-email a
+    {
+        color: #fff;
+        border: 2px solid #4FAEAA;
+        background: #4FAEAA;
+        font-family: 'Nunito-Bold';
+        padding: 8px 15px;
+        font-size: 10px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 7px;
+        border-top-left-radius: 25px;
+    
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: -20px;
+    }
+    
+    .your-email a:hover
+    {
+        color: #4FAEAA;
+        border: 2px solid #4FAEAA;
+        background: #fff;
+        font-family: 'Nunito-Bold';
+        padding: 11px 20px;
+        font-size: 10px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 7px;
+        border-top-left-radius: 25px;
+    }
+
+/* ************************************************************************** */
+
+.new-customer-offer-bg
+{
+    background-image: url(../images/p3\ new\ customer\ offer\ bg.png);
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.new-customer-offer
+{
+    text-align: center;
+}
+
+.new-customer-offer h2
+{
+    color: #4FAEAA;
+    font-family: 'Nunito-Bold';
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.new-customer-offer h5
+{
+    width: 230px;
+    color: #000;
+    font-family: 'Nunito-Bold';
+    margin: 0 auto;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.new-customer-offer p
+{
+    color: #000;
+    width: 220px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.new-customer-offer a
+{
+    color: #fff;
+    background: #4FAEAA;
+    border: 2px solid #4FAEAA;
+    padding: 7px 25px;
+    border-radius: 50px;
+    font-size: 8px;
+}
+
+.new-customer-offer a:hover
+{
+    color: #4FAEAA;
+    background: transparent;
+    border: 2px solid #4FAEAA;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 10px;
+}
+
+/* ************************************************** */
+
+.beverages-food-img-txt
+{
+    width: 100%;
+    text-align: center;
+}
+
+.beverages-food-img-txt h5
+{
+    color: #000;
+    font-family: 'Nunito-Bold';
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.food-five-star
+{
+    display: flex;
+    justify-content: center;
+}
+
+.food-five-star img
+{
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.bevrages-food-price
+{
+    width: 240px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.bevrages-food-price h6
+{
+    color: #000;
+    font-family: 'Nunito-bold';
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 8px;
+}
+
+.bevrages-food-price p
+{
+    color: #9F9F9F;
+    font-size: 8px;
+}
+
+
+/* ************************************************************************************ */
+
+.tfood-img-txt
+{
+    margin-top: 20px;
+}
+
+.tfood-img-txt h6
+{
+    width: 100px;
+    font-size: 10px;
+    color: #fff;
+    font-family: 'Nunito-Bold';
+    margin-bottom: 10px;
+}
+
+.tfood-img-txt p
+{
+    color: #fff;
+    width: 100px;
+    font-size: 8px;
+    margin-bottom: 10px;
+}
+
+.tfood-img-btn a
+{
+    color: #fff;
+    background: #42928f;
+    border: 2px solid #42928f;
+    font-family: 'Nunito-Bold';
+    font-size: 10px;
+    padding: 7px 15px;
+    border-radius: 50px;
+}
+
+.tfood-img-btn a:hover
+{
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    font-family: 'Nunito-Bold';
+    font-size: 10px;
+    padding: 7px 15px;
+    border-radius: 50px;
+}
+
+/* ***************************************************************************************** */
+
+.food-before img
+{
+    width: 100%;
+    margin-top: -35px;
+}
+
+/* ************************************************************************************************** */
+
+.solution-btn
+{
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 170px;
+}
+
+}
+
+/* ************************************************************************** */
+
+@media screen and (max-width:480px){
+    .nav {
+        padding: 1rem;
+    }
+    .nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding-top: 0.2rem;
+    }
+    .nav-btn label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+        margin-top: 25px;
+    }
+    .nav-btn label span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #000;
+    }
+    .nav-list {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        background-color: #4FAEAA;
+        height: 0;
+        transition: all 0.3s ease-in;
+        top: 93px;
+        left: 0;
+        overflow: hidden;
+        z-index: 9;
+        padding: 0px;
+    }
+    .nav-list li {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    #nav-check:checked ~ .nav-list {
+        height: calc(100vh - 50px);
+    }
+
+    .nav-menu.active {
+        border-bottom: 5px solid #fff;
+        padding-bottom: 10px;
+        transition: none;
+    }    
+
+/* ***************************************************************** */
+
+.started-image img
+{
+    width: 340px;
+    margin-left: 100px;
+}
+
+.poke-txt 
+{
+    width: 320px;
+    background: #4FAEAA;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+    font-size: 10px;
+
+    position: relative;
+
+    position: absolute;
+    z-index: 1;
+    bottom: 20px;
+    left: 30px;
+}
+
+.poke-txt p
+{
+    width: 300px;
+    color: #fff;
+    text-align: left;
+    font-family: 'Nunito-Regular';
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.poke-txt h6
+{
+    font-size: 12px;
+    text-align: right;
+    font-family: 'Nunito-Bold';
+}
+
+.poke-img img
+{
+    width: 35px;
+
+    position: absolute;
+    z-index: 1;
+    top: -7px;
+    left: -15px;
+}
+
+.td-food-img img
+{
+    width: 448px;
+}
+
+.review-img img
+{
+    width: 448px;
+    height: 100%;
+}
+
+.review-txt p
+{
+    width: 400px;
+    color: #000;
+    font-size: 10px;
+    margin-left: 1px;
+}
+
+.review-arrow button img
+{
+    width: 50px;
+}
+
+.review-arrow
+{
+    display: flex;
+
+    position: absolute;
+    z-index: 9;
+    bottom: 5px;
+    left: 348px;
+}
+
+
+/* ***************************************************************** */
+
+	.choose-us-img
+    {
+        margin-top: 50px;
+    }
+    
+    .choose-us-img img
+    {
+        width: 500px;
+    }
+    
+    .franchise
+    {
+        position: relative;
+        margin: 40px 0px;
+    }
+    
+    .franchise-txt 
+    {
+        position: absolute;
+        z-index: 1;
+        top: 60px;
+        right: 20px;
+    }
+    
+    .franchise-txt h2
+    {
+        color: #000;
+        width: 170px;
+        font-family: 'Nunito-Bold';
+        margin-bottom: 5px;
+        font-size: 11px;
+        text-align: left;
+    }
+    
+    .franchise-txt p
+    {
+        color: #000;
+        width: 200px;
+        font-size: 7px;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+
+    .your-email
+    {
+        display: flex;
+    }
+    
+    .your-email
+    {
+        position: relative;
+    }
+    
+    .franchise-txt input
+    {
+        border: none;
+        padding: 8px;
+        font-size: 7px;
+        /* padding-right: 5%; */
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 13px;
+    }
+    
+    .franchise-txt input::placeholder
+    {
+        font-size: 7px;
+        /* padding-left: 5px; */
+    }
+    
+    .your-email a
+    {
+        color: #fff;
+        border: 2px solid #4FAEAA;
+        background: #4FAEAA;
+        font-family: 'Nunito-Bold';
+        padding: 6px 10px;
+        font-size: 8px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 7px;
+        border-top-left-radius: 25px;
+    
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 13px;
+    }
+    
+    .your-email a:hover
+    {
+        color: #4FAEAA;
+        border: 2px solid #4FAEAA;
+        background: #fff;
+        font-family: 'Nunito-Bold';
+        padding: 4.5px 10px;
+        font-size: 8px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 7px;
+        border-top-left-radius: 25px;
+    }
+
+/* ***************************** product ******************************** */
+
+.offer-product-txt-beverages
+{
+    text-align: left;
+
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 50px;
+}
+
+/* ************************************************************************** */
+
+.new-customer-offer-bg
+{
+    background-image: url(../images/p3\ new\ customer\ offer\ bg.png);
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.new-customer-offer
+{
+    text-align: center;
+}
+
+.new-customer-offer h2
+{
+    color: #4FAEAA;
+    font-family: 'Nunito-Bold';
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.new-customer-offer h5
+{
+    width: 200px;
+    color: #000;
+    font-family: 'Nunito-Bold';
+    margin: 0 auto;
+    font-size: 10px;
+    margin-bottom: 8px;
+}
+
+.new-customer-offer p
+{
+    color: #000;
+    width: 200px;
+    margin: 0 auto;
+    font-size: 7px;
+    margin-bottom: 10px;
+}
+
+.new-customer-offer a
+{
+    color: #fff;
+    background: #4FAEAA;
+    border: 2px solid #4FAEAA;
+    padding: 8px 25px;
+    border-radius: 50px;
+    font-size: 8px;
+}
+
+.new-customer-offer a:hover
+{
+    color: #4FAEAA;
+    background: transparent;
+    border: 2px solid #4FAEAA;
+    padding: 8px 25px;
+    border-radius: 50px;
+    font-size: 8px;
+}
+
+/* ************************************************** */
+
+.beverages-food-img-txt
+{
+    width: 100%;
+    text-align: center;
+}
+
+.beverages-food-img-txt h5
+{
+    color: #000;
+    font-family: 'Nunito-Bold';
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 8px;
+}
+
+.food-five-star
+{
+    display: flex;
+    justify-content: center;
+}
+
+.food-five-star img
+{
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+.bevrages-food-price
+{
+    width: 240px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.bevrages-food-price h6
+{
+    color: #000;
+    font-family: 'Nunito-bold';
+    margin-left: 18px;
+    margin-right: 15px;
+    font-size: 6px;
+}
+
+.bevrages-food-price p
+{
+    color: #9F9F9F;
+    font-size: 6px;
+}
+
+/* ************************************************************** */
+
+.order-foods-txt
+{
+    margin-bottom: 230px;
+}
+
+.order-foods-img img
+{
+    width: 300px;
+
+    position: absolute;
+    bottom: -20px;
+    right: 80px;
+    z-index: 1;
+}
+
+
+/* ************************************************************************************ */
+
+.tfood-img-txt
+{
+    margin-top: 20px;
+}
+
+.tfood-img-txt h6
+{
+    width: 100px;
+    font-size: 10px;
+    color: #fff;
+    font-family: 'Nunito-Bold';
+    margin-bottom: 10px;
+}
+
+.tfood-img-txt p
+{
+    color: #fff;
+    width: 100px;
+    font-size: 8px;
+    margin-bottom: 10px;
+}
+
+.tfood-img-btn a
+{
+    color: #fff;
+    background: #42928f;
+    border: 2px solid #42928f;
+    font-family: 'Nunito-Bold';
+    font-size: 10px;
+    padding: 7px 15px;
+    border-radius: 50px;
+}
+
+.tfood-img-btn a:hover
+{
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    font-family: 'Nunito-Bold';
+    font-size: 10px;
+    padding: 7px 15px;
+    border-radius: 50px;
+}
+
+/* ***************************************************************************************** */
+
+.food-before img
+{
+    width: 100%;
+    margin-top: -35px;
+}
+
+/* ************************************************************************************************** */
+
+.solution-btn
+{
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 120px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
