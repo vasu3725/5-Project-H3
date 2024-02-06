@@ -2124,6 +2124,13 @@ video::-webkit-media-controls
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+.mission-line
+{
+    width: 80px;
+    margin-left: 0px;
+    border-bottom: 2px solid #ccc;
+}
+
 .mission-cnt-section
 {
     display: flex;
@@ -2134,13 +2141,6 @@ video::-webkit-media-controls
 {
     color: #4FAEAA;
     margin-bottom: 0px;
-}
-
-.mission-line
-{
-    width: 80px;
-    margin-left: 0px;
-    border-bottom: 2px solid #ccc;
 }
 
 .mission-cnt-txt h2
