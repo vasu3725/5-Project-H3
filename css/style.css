@@ -4368,6 +4368,11 @@ input[type=checkbox] {
     margin-top: -30px;
 }
 
+.footer-company ul,
+.footer-explore ul
+{
+    padding-left: 0;
+}
 
 
 
