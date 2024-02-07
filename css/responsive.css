@@ -1525,157 +1525,422 @@
 }
 } */
 
-
-
-
 /* ******************************************************************************************************************************************************************************************************************************************************************************************************** */
 
-@media (max-width: 767px){
-    .nav {
-        padding: 1rem;
-    }
-    .nav-btn {
-        display: inline-block;
-        position: absolute;
-        right: 0;
-        top: 0;
-        padding-top: 0.2rem;
-    }
-    .nav-btn label {
-        display: inline-block;
-        width: 50px;
-        height: 50px;
-        padding: 13px;
-        margin-top: 25px;
-    }
-    .nav-btn label span {
-        display: block;
-        width: 25px;
-        height: 10px;
-        border-top: 2px solid #000;
-    }
-    .nav-list {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        width: 100%;
-        background-color: #4FAEAA;
-        height: 0;
-        transition: all 0.3s ease-in;
-        top: 93px;
-        left: 0;
-        overflow: hidden;
-        z-index: 9;
-    }
-    .nav-list li {
-        width: 100%;
-        margin-top: 1.5rem;
-    }
-    #nav-check:checked ~ .nav-list {
-        height: calc(100vh - 50px);
-    }
+@media screen and (max-width: 767px){
+.nav {
+    padding: 1rem;
+}
+.nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 0.2rem;
+}
+.nav-btn label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+    margin-top: 25px;
+}
+.nav-btn label span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #000;
+}
+.nav-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    background-color: #4FAEAA;
+    height: 0;
+    transition: all 0.3s ease-in;
+    top: 93px;
+    left: 0;
+    overflow: hidden;
+    z-index: 9;
+}
+.nav-list li {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+#nav-check:checked ~ .nav-list {
+    height: calc(100vh - 50px);
+}
 
-    .nav-menu.active {
-        border-bottom: 5px solid #fff;
-        padding-bottom: 10px;
-        transition: none;
-    }    
-    .choose-us-img
-    {
-        margin-top: 50px;
-    }
-    
-    .choose-us-img img
-    {
-        width: 500px;
-    }
-    
-    .franchise
-    {
-        position: relative;
-        margin: 40px 0px;
-    }
-    
-    .franchise-txt 
-    {
-        position: absolute;
-        z-index: 1;
-        top: 100px;
-        right: 40px;
-    }
-    
-    .franchise-txt h2
-    {
-        color: #000;
-        width: 300px;
-        font-family: 'Nunito-Bold';
-        margin-bottom: 10px;
-        font-size: 20px;
-        text-align: left;
-    }
-    
-    .franchise-txt p
-    {
-        color: #000;
-        width: 330px;
-        font-size: 10px;
-        margin-bottom: 10px;
-        text-align: left;
-    }
+.nav-menu.active {
+    border-bottom: 5px solid #fff;
+    padding-bottom: 10px;
+    transition: none;
+}    
 
-    .your-email
-    {
-        display: flex;
-    }
     
-    .your-email
-    {
-        position: relative;
-    }
-    
-    .franchise-txt input
-    {
-        border: none;
-        padding: 8px;
-        padding-right: 28%;
-        border-bottom-left-radius: 7px;
-        border-top-left-radius: 15px;
-    
-    }
-    
-    .your-email a
-    {
-        color: #fff;
-        border: 2px solid #4FAEAA;
-        background: #4FAEAA;
-        font-family: 'Nunito-Bold';
-        padding: 11px 20px;
-        font-size: 10px;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-        border-bottom-left-radius: 7px;
-        border-top-left-radius: 25px;
-    
-        position: absolute;
-        z-index: 1;
-        top: 0;
-        right: 0;
-    }
-    
-    .your-email a:hover
-    {
-        color: #4FAEAA;
-        border: 2px solid #4FAEAA;
-        background: #fff;
-        font-family: 'Nunito-Bold';
-        padding: 11px 20px;
-        font-size: 10px;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-        border-bottom-left-radius: 7px;
-        border-top-left-radius: 25px;
-    }
+/* ************************************************************** */
+
+.started-txt h1
+{
+    width: 100%;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.started-txt p
+{
+    width: 100%;
+}
+
+.started-txt a
+{
+    padding: 10px 20px;
+}
+
+.started-txt a:hover
+{
+    padding: 10px 20px;
+}
+
+.started-img
+{
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+    margin-bottom: 5px;
+}
+
+.poke-txt
+{
+    width: 330px;
+    background: #4FAEAA;
+    border-radius: 10px;
+    text-align: left;
+    padding: 15px;
+    font-size: 11px;
+    position: relative;
+    position: absolute;
+    z-index: 1;
+    bottom: 30px;
+    left: 100px;
+}
+
+.treditional-food
+{
+    padding-top: 0px;
+}
+
+.td-food-txt h6
+{
+    margin-bottom: 7px;
+}
+
+.td-food-txt h2
+{
+    width: 400px;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.td-food-img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.td-btn
+{
+    margin-top: 30px;
+}
+
+.td-btn a
+{
+    padding: 10px 20px;
+}
+
+.td-btn a:hover
+{
+    padding: 10px 20px;
+}
+
+.solution-card
+{
+    height: 320px;
+}
+
+.solution-btn
+{
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 290px;
+    font-size: 15px;
+}
+
+.solution-btn a
+{
+    padding: 10px 20px;
+}
+
+.solution-btn a:hover
+{
+    padding: 10px 20px;
+}
+
+.brand
+{
+    margin-top: 40px;
+    margin-bottom: -60px;
+}
+
+.brand-title h6
+{
+    font-size: 12px;
+    margin-bottom: 7px;
+    margin-left: 30px;
+}
+
+.brand-title h2
+{
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.review-people-avtar img
+{
+    max-width: 30px;
+    max-height: 30px;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.active-img
+{
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.five-star img
+{
+    width: 70px;
+}
+
+.review-txt h6
+{
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+
+.review-txt h2
+{
+    width: 270px;
+    font-size: 20px;
+}
+
+.review-img img
+{
+    width: 735px;
+}
+
+.review-arrow button img
+{
+    width: 50px;
+}
+
+.review-arrow
+{
+    display: flex;
+
+    position: absolute;
+    z-index: 9;
+    bottom: 5px;
+    left: 634px;
+}
+
+.loved-food-txt h6
+{
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.loved-food-txt h2
+{
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+
+.loved-food-txt p
+{
+    font-size: 12px;
+}
+
+.loved-food-btn a
+{
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+.loved-food-btn a:hover
+{
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+.loved-food-img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loved-food-img img
+{
+    width: 450px;
+}
+
+.love-food-after img
+{
+    margin-bottom: 93px;
+}
+
+.partner-bg
+{
+    margin-top: -76px;
+}
+
+.shipping
+{
+    padding: 15px 0px;
+}
+
+.shipping-service img
+{
+    width: 35px;
+}
+
+.shipping-truck
+{
+    margin-bottom: 30px;
+}
+
+.shipping-service h5
+{
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+
+.shipping-service p
+{
+    font-size: 8px;
+}
+
+.footer a,p
+{
+    font-size: 15px;
+}
+
+
+
+.choose-us-img
+{
+    margin-top: 50px;
+}
+
+.choose-us-img img
+{
+    width: 500px;
+}
+
+.franchise
+{
+    position: relative;
+    margin: 40px 0px;
+}
+
+.franchise-txt 
+{
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    right: 40px;
+}
+
+.franchise-txt h2
+{
+    color: #000;
+    width: 300px;
+    font-family: 'Nunito-Bold';
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.franchise-txt p
+{
+    color: #000;
+    width: 330px;
+    font-size: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.your-email
+{
+    display: flex;
+}
+
+.your-email
+{
+    position: relative;
+}
+
+.franchise-txt input
+{
+    border: none;
+    padding: 8px;
+    padding-right: 28%;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 15px;
+
+}
+
+.your-email a
+{
+    color: #fff;
+    border: 2px solid #4FAEAA;
+    background: #4FAEAA;
+    font-family: 'Nunito-Bold';
+    padding: 11px 20px;
+    font-size: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 25px;
+
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+}
+
+.your-email a:hover
+{
+    color: #4FAEAA;
+    border: 2px solid #4FAEAA;
+    background: #fff;
+    font-family: 'Nunito-Bold';
+    padding: 11px 20px;
+    font-size: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 25px;
+}
 
 .love-food-after img
 {
@@ -2026,14 +2291,6 @@
 }
 
 /* ************************************************************************************************** */
-
-.solution-btn
-{
-    position: absolute;
-    z-index: 1;
-    bottom: 10px;
-    left: 240px;
-}
 .order-foods-img
 {
     display: none;
@@ -2043,57 +2300,246 @@
 /* ******************************************************************************************************************************************************************************************************************************************************************************************************** */
 
 @media screen and (max-width:575px){
-    .nav {
-        padding: 1rem;
-    }
-    .nav-btn {
-        display: inline-block;
-        position: absolute;
-        right: 0;
-        top: 0;
-        padding-top: 0.2rem;
-    }
-    .nav-btn label {
-        display: inline-block;
-        width: 50px;
-        height: 50px;
-        padding: 13px;
-        margin-top: 25px;
-    }
-    .nav-btn label span {
-        display: block;
-        width: 25px;
-        height: 10px;
-        border-top: 2px solid #000;
-    }
-    .nav-list {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        width: 100%;
-        background-color: #4FAEAA;
-        height: 0;
-        transition: all 0.3s ease-in;
-        top: 93px;
-        left: 0;
-        overflow: hidden;
-        z-index: 9;
-    }
-    .nav-list li {
-        width: 100%;
-        margin-top: 1.5rem;
-    }
-    #nav-check:checked ~ .nav-list {
-        height: calc(100vh - 50px);
-    }
+.nav {
+    padding: 1rem;
+}
+.nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 0.2rem;
+}
+.nav-btn label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+    margin-top: 25px;
+}
+.nav-btn label span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #000;
+}
+.nav-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    background-color: #4FAEAA;
+    height: 0;
+    transition: all 0.3s ease-in;
+    top: 93px;
+    left: 0;
+    overflow: hidden;
+    z-index: 9;
+}
+.nav-list li {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+#nav-check:checked ~ .nav-list {
+    height: calc(100vh - 50px);
+}
 
-    .nav-menu.active {
-        border-bottom: 5px solid #fff;
-        padding-bottom: 10px;
-        transition: none;
-    }  
+.nav-menu.active {
+    border-bottom: 5px solid #fff;
+    padding-bottom: 10px;
+    transition: none;
+}  
     
+/* ************************************************************** */
+
+.started-txt h1
+{
+    width: 300px;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.started-txt a
+{
+    padding: 10px 20px;
+}
+
+.started-txt a:hover
+{
+    padding: 10px 20px;
+}
+
+.td-btn
+{
+    margin-top: 30px;
+}
+
+.td-btn a
+{
+    padding: 10px 20px;
+}
+
+.td-btn a:hover
+{
+    padding: 10px 20px;
+}
+
+.solution-btn
+{
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 140px;
+    font-size: 15px;
+}
+
+.solution-btn a
+{
+    padding: 10px 20px;
+}
+
+.solution-btn a:hover
+{
+    padding: 10px 20px;
+}
+
+.brand
+{
+    margin-top: 40px;
+    margin-bottom: -60px;
+}
+
+.brand-title h6
+{
+    font-size: 12px;
+    margin-bottom: 7px;
+    margin-left: 30px;
+}
+
+.brand-title h2
+{
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.review-people-avtar img
+{
+    max-width: 30px;
+    max-height: 30px;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.active-img
+{
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.five-star img
+{
+    width: 70px;
+}
+
+.review-txt h6
+{
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+
+.review-txt h2
+{
+    width: 270px;
+    font-size: 20px;
+}
+
+.review-arrow button img
+{
+    width: 40px;
+}
+
+.review-arrow
+{
+    display: flex;
+
+    position: absolute;
+    z-index: 9;
+    bottom: 5px;
+    left: 368px;
+}
+
+.loved-food-txt h6
+{
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.loved-food-txt h2
+{
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+
+.loved-food-txt p
+{
+    font-size: 12px;
+}
+
+.loved-food-btn a
+{
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+.loved-food-btn a:hover
+{
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+.love-food-after img
+{
+    margin-bottom: 93px;
+}
+
+.partner-bg
+{
+    margin-top: -225px;
+}
+
+.shipping
+{
+    padding: 15px 0px;
+}
+
+.shipping-service img
+{
+    width: 35px;
+}
+
+.shipping-truck
+{
+    margin-bottom: 30px;
+}
+
+.shipping-service h5
+{
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+
+.shipping-service p
+{
+    font-size: 8px;
+}
+
+.footer a,p
+{
+    font-size: 15px;
+}
 
     .business-services-img,
     .business-services-img-right
@@ -2715,62 +3161,265 @@
 
 @media screen and (max-width:480px){
 
-    .nav {
-        padding: 1rem;
-    }
-    .nav-btn {
-        display: inline-block;
-        position: absolute;
-        right: 0;
-        top: 0;
-        padding-top: 0.2rem;
-    }
-    .nav-btn label {
-        display: inline-block;
-        width: 50px;
-        height: 50px;
-        padding: 13px;
-        margin-top: 25px;
-    }
-    .nav-btn label span {
-        display: block;
-        width: 25px;
-        height: 10px;
-        border-top: 2px solid #000;
-    }
-    .nav-list {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        width: 100%;
-        background-color: #4FAEAA;
-        height: 0;
-        transition: all 0.3s ease-in;
-        top: 93px;
-        left: 0;
-        overflow: hidden;
-        z-index: 9;
-        padding: 0px;
-    }
-    .nav-list li {
-        width: 100%;
-        margin-top: 1.5rem;
-    }
+.nav {
+    padding: 1rem;
+}
+.nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 0.2rem;
+}
+.nav-btn label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+    margin-top: 25px;
+}
+.nav-btn label span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #000;
+}
+.nav-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    background-color: #4FAEAA;
+    height: 0;
+    transition: all 0.3s ease-in;
+    top: 93px;
+    left: 0;
+    overflow: hidden;
+    z-index: 9;
+    padding: 0px;
+}
+.nav-list li {
+    width: 100%;
+    margin-top: 1.5rem;
+}
 
-    #nav-check:checked ~ .nav-list {
-        height: calc(100vh - 50px);
-    }
+#nav-check:checked ~ .nav-list {
+    height: calc(100vh - 50px);
+}
 
-    .nav-menu.active {
-        border-bottom: 5px solid #fff;
-        padding-bottom: 10px;
-        transition: none;
-    }    
+.nav-menu.active {
+    border-bottom: 5px solid #fff;
+    padding-bottom: 10px;
+    transition: none;
+}    
 
 /* ************************************************************** */
 
-    .brand-head-btn a
+.started-txt h1
+{
+    width: 300px;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.started-txt a
+{
+    padding: 10px 20px;
+}
+
+.started-txt a:hover
+{
+    padding: 10px 20px;
+}
+
+.td-btn
+{
+    margin-top: 30px;
+}
+
+.td-btn a
+{
+    padding: 10px 20px;
+}
+
+.td-btn a:hover
+{
+    padding: 10px 20px;
+}
+
+.solution-btn
+{
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 140px;
+    font-size: 15px;
+}
+
+.solution-btn a
+{
+    padding: 10px 20px;
+}
+
+.solution-btn a:hover
+{
+    padding: 10px 20px;
+}
+
+.brand
+{
+    margin-top: 40px;
+    margin-bottom: -60px;
+}
+
+.brand-title h6
+{
+    font-size: 12px;
+    margin-bottom: 7px;
+    margin-left: 30px;
+}
+
+.brand-title h2
+{
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.review-people-avtar img
+{
+    max-width: 30px;
+    max-height: 30px;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.active-img
+{
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.five-star img
+{
+    width: 70px;
+}
+
+.review-txt h6
+{
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+
+.review-txt h2
+{
+    width: 270px;
+    font-size: 20px;
+}
+
+.review-arrow button img
+{
+    width: 40px;
+}
+
+.review-arrow
+{
+    display: flex;
+
+    position: absolute;
+    z-index: 9;
+    bottom: 5px;
+    left: 368px;
+}
+
+.loved-food-txt h6
+{
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.loved-food-txt h2
+{
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+
+.loved-food-txt p
+{
+    font-size: 12px;
+}
+
+.loved-food-btn a
+{
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+.loved-food-btn a:hover
+{
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+.love-food-after img
+{
+    margin-bottom: -80px;
+}
+
+.partner h3
+{
+    font-size: 25px;
+}
+
+.partner-bg
+{
+    margin-top: 0px;
+    padding-top: 110px;
+    padding-bottom: 80px;
+}
+
+.shipping
+{
+    margin-top: -17px;
+    padding: 15px 0px;
+}
+
+.shipping-service img
+{
+    width: 35px;
+}
+
+.shipping-truck
+{
+    margin-bottom: 30px;
+}
+
+.shipping-service h5
+{
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+
+.shipping-service p
+{
+    font-size: 8px;
+}
+
+.footer-before-home img
+{
+    margin-top: -140px;
+}
+
+.footer a,p
+{
+    font-size: 15px;
+}
+
+/* ************************************************************** */
+
+.brand-head-btn a
 {
     font-size: 10px;
     padding: 10px 20px;
@@ -2961,125 +3610,112 @@
     margin-left: 1px;
 }
 
-.review-arrow button img
-{
-    width: 50px;
-}
 
-.review-arrow
-{
-    display: flex;
-
-    position: absolute;
-    z-index: 9;
-    bottom: 5px;
-    left: 348px;
-}
 
 
 /* ***************************************************************** */
 
-	.choose-us-img
-    {
-        margin-top: 50px;
-    }
-    
-    .choose-us-img img
-    {
-        width: 500px;
-    }
-    
-    .franchise
-    {
-        position: relative;
-        margin: 40px 0px;
-    }
-    
-    .franchise-txt 
-    {
-        position: absolute;
-        z-index: 1;
-        top: 60px;
-        right: 20px;
-    }
-    
-    .franchise-txt h2
-    {
-        color: #000;
-        width: 170px;
-        font-family: 'Nunito-Bold';
-        margin-bottom: 5px;
-        font-size: 11px;
-        text-align: left;
-    }
-    
-    .franchise-txt p
-    {
-        color: #000;
-        width: 200px;
-        font-size: 7px;
-        margin-bottom: 5px;
-        text-align: left;
-    }
+.choose-us-img
+{
+    margin-top: 50px;
+}
 
-    .your-email
-    {
-        display: flex;
-    }
-    
-    .your-email
-    {
-        position: relative;
-    }
-    
-    .franchise-txt input
-    {
-        border: none;
-        padding: 8px;
-        font-size: 7px;
-        /* padding-right: 5%; */
-        border-bottom-left-radius: 4px;
-        border-top-left-radius: 13px;
-    }
-    
-    .franchise-txt input::placeholder
-    {
-        font-size: 7px;
-        /* padding-left: 5px; */
-    }
-    
-    .your-email a
-    {
-        color: #fff;
-        border: 2px solid #4FAEAA;
-        background: #4FAEAA;
-        font-family: 'Nunito-Bold';
-        padding: 6px 10px;
-        font-size: 8px;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-        border-bottom-left-radius: 7px;
-        border-top-left-radius: 25px;
-    
-        position: absolute;
-        z-index: 1;
-        top: 0;
-        right: 13px;
-    }
-    
-    .your-email a:hover
-    {
-        color: #4FAEAA;
-        border: 2px solid #4FAEAA;
-        background: #fff;
-        font-family: 'Nunito-Bold';
-        padding: 4.5px 10px;
-        font-size: 8px;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-        border-bottom-left-radius: 7px;
-        border-top-left-radius: 25px;
-    }
+.choose-us-img img
+{
+    width: 500px;
+}
+
+.franchise
+{
+    position: relative;
+    margin: 40px 0px;
+}
+
+.franchise-txt 
+{
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    right: 20px;
+}
+
+.franchise-txt h2
+{
+    color: #000;
+    width: 170px;
+    font-family: 'Nunito-Bold';
+    margin-bottom: 5px;
+    font-size: 11px;
+    text-align: left;
+}
+
+.franchise-txt p
+{
+    color: #000;
+    width: 200px;
+    font-size: 7px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.your-email
+{
+    display: flex;
+}
+
+.your-email
+{
+    position: relative;
+}
+
+.franchise-txt input
+{
+    border: none;
+    padding: 8px;
+    font-size: 7px;
+    /* padding-right: 5%; */
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 13px;
+}
+
+.franchise-txt input::placeholder
+{
+    font-size: 7px;
+    /* padding-left: 5px; */
+}
+
+.your-email a
+{
+    color: #fff;
+    border: 2px solid #4FAEAA;
+    background: #4FAEAA;
+    font-family: 'Nunito-Bold';
+    padding: 6px 10px;
+    font-size: 8px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 25px;
+
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 13px;
+}
+
+.your-email a:hover
+{
+    color: #4FAEAA;
+    border: 2px solid #4FAEAA;
+    background: #fff;
+    font-family: 'Nunito-Bold';
+    padding: 4.5px 10px;
+    font-size: 8px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 25px;
+}
 
 /* ***************************** product ******************************** */
 
@@ -3283,13 +3919,6 @@
 
 /* ************************************************************************************************** */
 
-.solution-btn
-{
-    position: absolute;
-    z-index: 1;
-    bottom: 10px;
-    left: 120px;
-}
 
 .our-menu-content h3
 {
