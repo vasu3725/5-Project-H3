@@ -1,5 +1,15 @@
 @media screen and (min-width:1241px) and (max-width:1500px){
 
+.review-img img
+{
+    width: 620px;
+}
+
+.brand-head-btn a
+{
+    margin-right: 30px;
+}
+
     .franchise
     {
         position: relative;
@@ -156,6 +166,70 @@
 
 @media screen and (min-width:1025px) and (max-width:1240px){
 	
+.started-txt h1
+{
+    width: 300px;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.get-video a
+{
+    padding: 15px 30px;
+    font-size: 13px;
+}
+
+.btn-wrap button img
+{
+    width: 50px;
+}
+
+.treditional-food
+{
+    padding: 20px 0px;
+}
+
+.td-food-txt h2
+{
+    line-height: 40px;
+}
+
+.td-food-txt a
+{
+    padding: 13px 30px;
+}
+
+.td-food-img img
+{
+    width: 470px;
+    margin: 50px 0px;
+}
+
+.solution-card
+{
+    height: 380px;
+}
+
+.solution-btn
+{
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 80px;
+}
+
+.solution-btn a
+{
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.loved-food-img img
+{
+    margin: 50px 0px;
+}
+
+
 .our-story
 {
     display: none;
@@ -210,18 +284,7 @@
     left: -15px;
 }
 
-.td-food-img img
-{
-    width: 470px;
-}
 
-.solution-btn
-{
-    position: absolute;
-    z-index: 1;
-    bottom: 10px;
-    left: 60px;
-}
 
 .brand-head-btn
 {
