@@ -701,6 +701,9 @@
     z-index: 1;
 }
 
+
+
+
 }
 
 
@@ -758,6 +761,15 @@
         transition: none;
     }    
 	
+
+    /* .order-foods-txt h2
+    {
+        width: 100%;
+        color: #fff;
+        font-family: 'Nunito-Bold';
+        line-height: 45px;
+        margin-bottom: 15px;
+    } */
 
 /* *********************************************************************** */
 
@@ -1315,18 +1327,18 @@
 
 /* ************************************************************** */
 
-.order-foods-txt
+.order-foods-txt h2
 {
-    margin-bottom: 230px;
+    width: 100%;
 }
 
 .order-foods-img img
 {
-    width: 300px;
+    width: 100%;
 
     position: absolute;
     bottom: -20px;
-    right: 250px;
+    right: 25px;
     z-index: 1;
 }
 
@@ -1354,6 +1366,8 @@
     text-align: center;
     object-fit: contain;
 }
+
+
 
 }
 
@@ -1863,7 +1877,10 @@
     bottom: 10px;
     left: 240px;
 }
-
+.order-foods-img
+{
+    display: none;
+}
 }
 
 /* ************************************************************************** */
@@ -2478,7 +2495,10 @@
     z-index: 1;
 }
 
-
+.order-foods-img
+{
+    display: none;
+}
 
 }
 
@@ -3113,7 +3133,10 @@
     z-index: 1;
 }
 
-
+.order-foods-img
+{
+    display: none;
+}
 
 
 
