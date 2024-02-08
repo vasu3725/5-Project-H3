@@ -545,6 +545,56 @@
     font-size: 15px;
 }
 
+.solution-btn
+{
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 90px;
+    font-size: 15px;
+}
+
+.solution-btn a
+{
+    padding: 10px 20px;
+    font-size: 13px;
+}
+
+.solution-btn a:hover
+{
+    padding: 10px 20px;
+    font-size: 13px;
+}
+
+.brand-head-btn
+{
+    margin-right: 30px;
+}
+
+.brand-head-btn a 
+{
+    color: #4FAEAA;
+    background: #fff;
+    border: 2px solid #4FAEAA;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 13px;
+}
+
+.brand-head-btn a:hover
+{
+    color: #fff;
+    background: #4FAEAA;
+    border: 2px solid #4FAEAA;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 13px;
+}
+
+.footer-before-home img {
+    width: 100%;
+    margin-top: -160px;
+}
 
 /* *********************************************************************** */
 .business-services-img,
@@ -630,7 +680,7 @@
     height: 100%;
     z-index: 1;
     position: relative;
-    margin-bottom: -60px;
+    margin-bottom: -140px;
 }
 
 /* ************************************************************************** */
@@ -765,7 +815,6 @@
 }
 
 }
-
 
 /* ******************************************************************************************************************************************************************************************************************************************************************************************************** */
 
