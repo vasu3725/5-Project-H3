@@ -2363,6 +2363,17 @@ video::-webkit-media-controls
     margin-top: -30px;
 }
 
+.btn-wrap-about button
+{
+    background: none;
+    border: none;
+}
+
+.btn-wrap-about img
+{
+    width: 60px;
+}
+
 /* ================================================================================================================================================================================================ TERMS & CONDITION ========================= */
 
 .terms-banner
@@ -3090,7 +3101,8 @@ input[type=checkbox] {
 
 .food-before-contact img
 {
-    margin-top: -370px;
+    width: 100%;
+    margin-top: -372px;
 }
 
 .privacy-insta-bg-contact

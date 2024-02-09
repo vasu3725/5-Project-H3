@@ -385,8 +385,64 @@
     margin-top: -35px;
 }
 
-/* *************************************************************************** */
+/* ************************************************************************** */
 
+.core-value-slide
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    margin-bottom: -70px;
+}
+
+.swiper-slide img
+{
+    width: 280px;
+    height: 100%;
+}
+
+.test-food h6
+{
+    font-size: 13px;
+}
+
+.test-food h2
+{
+    font-size: 25px;
+}
+
+.test-food p
+{
+    font-size: 12px;
+}
+
+.btn-wrap-about
+{
+    display: flex;
+}
+
+.btn-wrap-about img
+{
+    width: 35px;
+}
+
+.swiper-wrapper
+{
+    margin-left: -100px;
+}
+
+.swiper-slide img
+{
+    width: 300px;
+    margin: 80px 0px;
+}
+
+.core-value-slide 
+{
+    display: flex;
+    justify-content: center;
+}
 
 }
 
@@ -812,6 +868,166 @@
     bottom: -20px;
     right: 250px;
     z-index: 1;
+}
+
+.our-story
+{
+    display: none;
+}
+
+/* ************************************************************************** */
+
+.core-value-slide
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    margin-bottom: -70px;
+}
+
+.swiper-slide img
+{
+    width: 280px;
+    height: 100%;
+}
+
+.test-food h6
+{
+    font-size: 13px;
+}
+
+.test-food h2
+{
+    font-size: 25px;
+}
+
+.test-food p
+{
+    font-size: 12px;
+}
+
+.btn-wrap-about
+{
+    display: flex;
+}
+
+.btn-wrap-about img
+{
+    width: 35px;
+}
+
+.swiper-wrapper
+{
+    margin-left: -100px;
+    margin-top: 80px;
+}
+
+.swiper-slide img
+{
+    width: 300px;
+}
+
+.core-value-slide 
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* ################# */
+
+.core-value-txt h6
+{
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.core-value-txt h2
+{
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+
+.core-value-txt p
+{
+    font-size: 14px;
+}
+
+.core-item-img img
+{
+    width: 50px;
+}
+
+.core-item-cnt-head h6
+{
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.core-item-cnt-head p
+{
+    font-size: 10px;
+    line-height: 15px;
+    margin-bottom: 7px;
+}
+
+.core-item-header::after
+{
+    font-size: 15px;
+    width: 17px;
+    height: 17px;
+}
+
+.terms-item-cnt-head h5
+{
+    font-size: 18px;
+}
+
+.privacy-item-cnt-head h5
+{
+    font-size: 18px;
+}
+
+/* ****************************************************** */
+
+.contact-form h2
+{
+    font-size: 30px;
+}
+
+.form-dtl-part input,
+.form-dtl-part select
+{
+    min-height: 60px;
+}
+
+.form-dtl-part textarea
+{
+    height: 200px;
+}
+
+.form-dtl-part i {
+    top: 18px;
+}
+
+.co-dtl-txt h5
+{
+    font-size: 18px;
+}
+
+.company-dtl
+{
+    margin: 0px;
+}
+
+.privacy-insta-contact h2
+{
+    font-size: 30px;
+}
+
+.privacy-insta-icon img
+{
+    width: 15px;
 }
 
 }
@@ -1892,103 +2108,195 @@
     object-fit: contain;
 }
 
-}
+/* ************************************************************************** */
 
-/* @media screen and (min-width:768px) and (max-width:992px){
-
-.started-txt h6
+.core-value-slide
 {
-    color: #4FAEAA;
-    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    margin-bottom: -70px;
 }
 
-.started-txt h6
+.swiper-slide img
 {
-    font-size: 15px;
+    width: 280px;
+    height: 100%;
 }
 
-.started-txt h1
+.test-food h6
 {
-    width: 270px;
-    font-size: 25px; 
-    line-height: 30px;  
+    font-size: 13px;
 }
 
-.started-txt p
+.test-food h2
 {
-    width: 330px;
-    font-size: 15px;
+    font-size: 25px;
 }
 
-.started-img img
+.test-food p
 {
-    width: 270px;
-    margin-left: 80px;
+    font-size: 12px;
 }
 
-.get-video a
+.btn-wrap-about
 {
-    color: #fff;
-    background: #4FAEAA;
-    border: 2px solid #4FAEAA;
-    padding: 8px 20px;
-    border-radius: 50px;
-    font-size: 15px;
+    display: flex;
 }
 
-.get-video a:hover
+.btn-wrap-about img
 {
-    color: #4FAEAA;
-    background: transparent;
-    border: 2px solid #4FAEAA;
-    padding: 8px 20px;
-    border-radius: 50px;
-    font-size: 15px;
+    width: 35px;
 }
 
-.poke-txt 
+.swiper-wrapper
+{
+    margin-left: -100px;
+}
+
+.swiper-slide img
 {
     width: 250px;
-    background: #4FAEAA;
-    border-radius: 10px;
-    text-align: left;
-    padding: 15px;
-    font-size: 10px;
-
-    position: relative;
-
-    position: absolute;
-    z-index: 1;
-    bottom: 30px;
-    left: 0;
+    margin: 80px 0px;
 }
 
-.poke-txt p
+.core-value-slide 
 {
-    width: 230px;
-    color: #fff;
-    text-align: left;
-    font-family: 'Nunito-Regular';
+    display: flex;
+    justify-content: center;
+}
+
+/* ################# */
+
+.core-value-txt h6
+{
+    font-size: 13px;
     margin-bottom: 7px;
 }
 
-.poke-txt h6
+.core-value-txt h2
+{
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+
+.core-value-txt p
+{
+    font-size: 11px;
+}
+
+.core-item-img img
+{
+    width: 50px;
+}
+
+.core-item-cnt-head h6
+{
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.core-item-cnt-head p
 {
     font-size: 10px;
-    text-align: right;
-    font-family: 'Nunito-Bold';
+    line-height: 15px;
+    margin-bottom: 7px;
 }
 
-.poke-img img
+.core-item-header::after
 {
-    width: 25px;
-
-    position: absolute;
-    z-index: 1;
-    top: -7px;
-    left: -90px;
+    font-size: 15px;
+    width: 17px;
+    height: 17px;
 }
-} */
+
+/* ******************************************************* */
+
+.who-we-txt h6
+{
+    font-size: 13px;
+}
+
+.who-we-txt h2
+{
+    font-size: 25px;
+}
+
+.who-we-txt p
+{
+    font-size: 11px;
+}
+
+.who-we-main img
+{
+    width: 350px;
+}
+
+.mission-cnt-txt h6
+{
+    font-size: 13px;
+}
+
+.mission-cnt-txt h2
+{
+    font-size: 25px;
+}
+
+.mission-cnt-txt p
+{
+    font-size: 11px;
+}
+
+.terms-item-cnt-head h5
+{
+    font-size: 18px;
+}
+
+/* ****************************************************** */
+
+.contact-form h2
+{
+    font-size: 30px;
+}
+
+.form-dtl-part input,
+.form-dtl-part select
+{
+    min-height: 60px;
+}
+
+.form-dtl-part textarea
+{
+    height: 200px;
+}
+
+.form-dtl-part i {
+    top: 18px;
+}
+
+.co-dtl-txt h5
+{
+    font-size: 16px;
+}
+
+.company-dtl
+{
+    margin: 10px;
+}
+
+.privacy-insta-contact h2
+{
+    font-size: 30px;
+}
+
+.privacy-insta-icon img
+{
+    width: 15px;
+}
+
+}
+
 
 /* ******************************************************************************************************************************************************************************************************************************************************************************************************** */
 
@@ -2766,6 +3074,195 @@
 {
     display: none;
 }
+
+/* ************************************************************************** */
+
+.core-value-slide
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    margin-bottom: -70px;
+}
+
+.swiper-slide img
+{
+    width: 280px;
+    height: 100%;
+}
+
+.test-food h6
+{
+    font-size: 13px;
+}
+
+.test-food h2
+{
+    font-size: 25px;
+}
+
+.test-food p
+{
+    font-size: 12px;
+}
+
+.btn-wrap-about
+{
+    display: flex;
+}
+
+.btn-wrap-about img
+{
+    width: 35px;
+}
+
+.swiper-wrapper
+{
+    margin-left: -100px;
+}
+
+.swiper-slide img
+{
+    width: 250px;
+    margin: 80px 0px;
+}
+
+.core-value-slide 
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* ################# */
+
+.core-value-txt h6
+{
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.core-value-txt h2
+{
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+
+.core-value-txt p
+{
+    font-size: 11px;
+}
+
+.core-item-img img
+{
+    width: 50px;
+}
+
+.core-item-cnt-head h6
+{
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.core-item-cnt-head p
+{
+    font-size: 10px;
+    line-height: 15px;
+    margin-bottom: 7px;
+}
+
+.core-item-header::after
+{
+    font-size: 15px;
+    width: 17px;
+    height: 17px;
+}
+
+/* ******************************************************* */
+
+.who-we-txt h6
+{
+    font-size: 13px;
+}
+
+.who-we-txt h2
+{
+    font-size: 25px;
+}
+
+.who-we-txt p
+{
+    font-size: 11px;
+}
+
+.who-we-main img
+{
+    width: 450px;
+}
+
+.mission-cnt-txt h6
+{
+    font-size: 13px;
+}
+
+.mission-cnt-txt h2
+{
+    font-size: 25px;
+}
+
+.mission-cnt-txt p
+{
+    font-size: 11px;
+}
+
+.terms-item-cnt-head h5
+{
+    font-size: 18px;
+}
+
+/* ****************************************************** */
+
+.contact-form h2
+{
+    font-size: 30px;
+}
+
+.form-dtl-part input,
+.form-dtl-part select
+{
+    min-height: 60px;
+}
+
+.form-dtl-part textarea
+{
+    height: 180px;
+}
+
+.form-dtl-part i {
+    top: 18px;
+}
+
+.co-dtl-txt h5
+{
+    font-size: 16px;
+}
+
+.company-dtl
+{
+    margin: 5px 0px;
+}
+
+.privacy-insta-contact h2
+{
+    font-size: 30px;
+}
+
+.privacy-insta-icon img
+{
+    width: 15px;
+}
+
+
 }
 
 /* ******************************************************************************************************************************************************************************************************************************************************************************************************** */
@@ -3096,10 +3593,6 @@
 
 /* ***************************************************************** */
 
-.btn-wrap button img
-{
-    width: 50px;
-}
 
 .started-image
 {
@@ -3323,7 +3816,7 @@
 
 .btn-wrap img
 {
-    width: 30px;
+    width: 35px;
 }
 
 /* ***************************************************************** */
@@ -3335,7 +3828,7 @@
     
     .choose-us-img img
     {
-        width: 500px;
+        width: 400px;
     }
     
     .franchise
@@ -3622,6 +4115,181 @@
 .order-foods-img
 {
     display: none;
+}
+
+/* ************************************************************************** */
+
+.core-value-slide
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    margin-bottom: -70px;
+}
+
+.swiper-slide img
+{
+    width: 280px;
+    height: 100%;
+}
+
+.test-food h6
+{
+    font-size: 13px;
+}
+
+.test-food h2
+{
+    font-size: 25px;
+}
+
+.test-food p
+{
+    font-size: 12px;
+}
+
+.btn-wrap-about
+{
+    display: flex;
+}
+
+.btn-wrap-about img
+{
+    width: 35px;
+}
+
+/* ################# */
+
+.core-value-txt h6
+{
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.core-value-txt h2
+{
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+
+.core-value-txt p
+{
+    font-size: 11px;
+}
+
+.core-item-img img
+{
+    width: 50px;
+}
+
+.core-item-cnt-head h6
+{
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.core-item-cnt-head p
+{
+    font-size: 10px;
+    line-height: 15px;
+    margin-bottom: 7px;
+}
+
+.core-item-header::after
+{
+    font-size: 15px;
+    width: 17px;
+    height: 17px;
+}
+
+/* ******************************************************* */
+
+.who-we-txt h6
+{
+    font-size: 13px;
+}
+
+.who-we-txt h2
+{
+    font-size: 25px;
+}
+
+.who-we-txt p
+{
+    font-size: 11px;
+}
+
+.who-we-main img
+{
+    width: 350px;
+}
+
+.mission-cnt-txt h6
+{
+    font-size: 13px;
+}
+
+.mission-cnt-txt h2
+{
+    font-size: 25px;
+}
+
+.mission-cnt-txt p
+{
+    font-size: 11px;
+}
+
+.terms-item-cnt-head h5
+{
+    font-size: 15px;
+}
+
+.privacy-item-cnt-head h5
+{
+    font-size: 15px;
+}
+
+/* ****************************************************** */
+
+.contact-form h2
+{
+    font-size: 25px;
+}
+
+.form-dtl-part input,
+.form-dtl-part select
+{
+    min-height: 50px;
+}
+
+.form-dtl-part textarea
+{
+    height: 150px;
+}
+
+.form-dtl-part i {
+    top: 18px;
+}
+
+.co-dtl-txt h5
+{
+    font-size: 16px;
+}
+
+.company-dtl
+{
+    margin: 0px;
+}
+
+.privacy-insta-contact h2
+{
+    font-size: 25px;
+}
+
+.privacy-insta-icon img
+{
+    width: 10px;
 }
 
 }
@@ -4091,7 +4759,7 @@
 
 .choose-us-img img
 {
-    width: 500px;
+    width: 350px;
 }
 
 .franchise
@@ -4445,7 +5113,191 @@
     display: none;
 }
 
+/* ************************************************************************** */
 
+.core-value-slide
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    margin-bottom: -70px;
+}
+
+.swiper-slide img
+{
+    width: 280px;
+    height: 100%;
+}
+
+.test-food h6
+{
+    font-size: 13px;
+}
+
+.test-food h2
+{
+    font-size: 25px;
+}
+
+.test-food p
+{
+    font-size: 12px;
+}
+
+.btn-wrap-about
+{
+    display: flex;
+}
+
+.btn-wrap-about img
+{
+    width: 30px;
+}
+
+/* ################# */
+
+.core-value-txt h6
+{
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.core-value-txt h2
+{
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+
+.core-value-txt p
+{
+    font-size: 11px;
+}
+
+.core-item-img img
+{
+    width: 50px;
+}
+
+.core-item-cnt-head h6
+{
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.core-item-cnt-head p
+{
+    font-size: 10px;
+    line-height: 15px;
+    margin-bottom: 7px;
+}
+
+.core-item-header::after
+{
+    font-size: 15px;
+    width: 17px;
+    height: 17px;
+}
+
+/* ******************************************************* */
+
+.who-we-txt h6
+{
+    font-size: 13px;
+}
+
+.who-we-txt h2
+{
+    font-size: 25px;
+}
+
+.who-we-txt p
+{
+    font-size: 11px;
+}
+
+.who-we-main img
+{
+    width: 350px;
+}
+
+.mission-cnt-txt h6
+{
+    font-size: 13px;
+}
+
+.mission-cnt-txt h2
+{
+    font-size: 25px;
+}
+
+.mission-cnt-txt p
+{
+    font-size: 11px;
+}
+
+.terms-item-cnt-head h5
+{
+    font-size: 15px;
+}
+
+.privacy-item-cnt-head h5
+{
+    font-size: 15px;
+}
+
+/* ****************************************************** */
+
+.contact-form h2
+{
+    font-size: 25px;
+}
+
+.form-dtl-part input,
+.form-dtl-part select
+{
+    min-height: 50px;
+}
+
+.form-dtl-part textarea
+{
+    height: 150px;
+}
+
+.form-dtl-part i {
+    top: 18px;
+}
+
+.co-dtl-txt h5
+{
+    font-size: 16px;
+}
+
+.company-dtl
+{
+    margin: 0px;
+}
+
+.privacy-insta-contact h2
+{
+    font-size: 25px;
+}
+
+.privacy-insta-icon img
+{
+    width: 10px;
+}
+
+/* ********************************************************************************** */
+
+.offer-product-img-beverages img
+{
+    width: 400px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    left: 40px;
+}
 
 
 }
