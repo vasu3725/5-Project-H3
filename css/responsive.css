@@ -704,7 +704,7 @@
 .business-services-img-right img
 {
     width: 400px;
-    margin: 15px 0px;
+    margin: 35px 0px;
 }
 
 .business-services-icon-right img
@@ -1101,6 +1101,7 @@
     left: 0;
     overflow: hidden;
     z-index: 9;
+    padding: 0;
 }
 .nav-list li {
     width: 100%;
@@ -2379,6 +2380,7 @@
     left: 0;
     overflow: hidden;
     z-index: 9;
+    padding: 0;
 }
 .nav-list li {
     width: 100%;
@@ -2916,7 +2918,7 @@
 .business-services-img img
 {
     width: 400px;
-    margin: 15px 0px;
+    margin: 35px 0px;
 }
 
 .business-services-icon img
@@ -2933,7 +2935,7 @@
 .business-services-img-right img
 {
     width: 400px;
-    margin: 15px 0px;
+    margin: 35px 0px;
 }
 
 .business-services-icon-right img
@@ -3358,6 +3360,7 @@
     left: 0;
     overflow: hidden;
     z-index: 9;
+    padding: 0;
 }
 .nav-list li {
     width: 100%;
@@ -3587,7 +3590,7 @@
     .business-services-img img
     {
         width: 400px;
-        margin: 15px 0px;
+        margin: 35px 0px;
     }
     
     .business-services-icon img
@@ -3604,7 +3607,7 @@
     .business-services-img-right img
     {
         width: 400px;
-        margin: 15px 0px;
+        margin: 35px 0px;
     }
     
     .business-services-icon-right img
@@ -5156,7 +5159,7 @@
 .business-services-img img
 {
     width: 340px;
-    margin: 15px 0px;
+    margin: 35px 0px;
 }
 
 .business-services-icon img
@@ -5173,7 +5176,7 @@
 .business-services-img-right img
 {
     width: 380px;
-    margin: 15px 0px;
+    margin: 35px 0px;
 }
 
 .business-services-icon-right img
