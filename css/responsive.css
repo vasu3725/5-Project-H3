@@ -160,12 +160,23 @@
     border-radius: 50px;
 }
 
+.core-item-body-content p
+{
+    font-size: 14px;
+    line-height: 18px;
+}
+
 }
 
 /* ******************************************************************************************************************************************************************************************************************************************************************************************************** */
 
 @media screen and (min-width:1025px) and (max-width:1240px){
 	
+.nav-list a
+{
+    font-size: 13px;
+}
+
 .started-txt h1
 {
     width: 300px;
@@ -444,11 +455,23 @@
     justify-content: center;
 }
 
+
+.core-item-body-content p
+{
+    font-size: 12px;
+    line-height: 18px;
+}
+
 }
 
 /* ******************************************************************************************************************************************************************************************************************************************************************************************************** */
 
 @media screen and (min-width:992px) and (max-width:1024px){
+
+.nav-list a
+{
+    font-size: 12px;
+}
 
 .started-txt h6
 {
@@ -664,7 +687,7 @@
 .business-services-img img
 {
     width: 400px;
-    margin: 15px 0px;
+    margin: 35px 0px;
 }
 
 .business-services-icon img
@@ -971,6 +994,12 @@
     margin-bottom: 7px;
 }
 
+.core-item-body-content p
+{
+    font-size: 12px;
+    line-height: 18px;
+}
+
 .core-item-header::after
 {
     font-size: 15px;
@@ -1036,7 +1065,8 @@
 
 @media screen and (min-width:768px) and (max-width:991px){
 .nav {
-    padding: 1rem;
+    margin: 0;
+    padding: 0;
 }
 .nav-btn {
     display: inline-block;
@@ -1050,7 +1080,7 @@
     width: 50px;
     height: 50px;
     padding: 13px;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 .nav-btn label span {
     display: block;
@@ -1067,7 +1097,7 @@
     background-color: #4FAEAA;
     height: 0;
     transition: all 0.3s ease-in;
-    top: 93px;
+    top: 60px;
     left: 0;
     overflow: hidden;
     z-index: 9;
@@ -1097,6 +1127,11 @@
 } */
 
 /* ************************************************************** */
+
+.review-txt p
+{
+    font-size: 14px;
+}
 
 .started-txt h1
 {
@@ -1243,7 +1278,7 @@
     position: absolute;
     z-index: 1;
     bottom: 10px;
-    left: 290px;
+    left: 300px;
     font-size: 15px;
 }
 
@@ -2204,6 +2239,12 @@
     margin-bottom: 7px;
 }
 
+.core-item-body-content p
+{
+    font-size: 12px;
+    line-height: 18px;
+}
+
 .core-item-header::after
 {
     font-size: 15px;
@@ -2302,7 +2343,8 @@
 
 @media screen and (max-width: 767px){
 .nav {
-    padding: 1rem;
+    margin: 0;
+    padding: 0;
 }
 .nav-btn {
     display: inline-block;
@@ -2316,7 +2358,7 @@
     width: 50px;
     height: 50px;
     padding: 13px;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 .nav-btn label span {
     display: block;
@@ -2333,7 +2375,7 @@
     background-color: #4FAEAA;
     height: 0;
     transition: all 0.3s ease-in;
-    top: 93px;
+    top: 60px;
     left: 0;
     overflow: hidden;
     z-index: 9;
@@ -2353,6 +2395,11 @@
 }    
 
 /* ************************************************************** */
+
+.review-txt p
+{
+    font-size: 14px;
+}
 
 .started-txt h1
 {
@@ -3171,6 +3218,12 @@
     margin-bottom: 7px;
 }
 
+.core-item-body-content p
+{
+    font-size: 12px;
+    line-height: 18px;
+}
+
 .core-item-header::after
 {
     font-size: 15px;
@@ -3269,7 +3322,8 @@
 
 @media screen and (max-width:575px){
 .nav {
-    padding: 1rem;
+    margin: 0;
+    padding: 0;
 }
 .nav-btn {
     display: inline-block;
@@ -3283,7 +3337,7 @@
     width: 50px;
     height: 50px;
     padding: 13px;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 .nav-btn label span {
     display: block;
@@ -3300,7 +3354,7 @@
     background-color: #4FAEAA;
     height: 0;
     transition: all 0.3s ease-in;
-    top: 93px;
+    top: 60px;
     left: 0;
     overflow: hidden;
     z-index: 9;
@@ -3320,6 +3374,13 @@
 }  
     
 /* ************************************************************** */
+
+.review-txt p
+{
+    color: #000;
+    font-size: 14px;
+    margin-left: 1px;
+}
 
 .started-txt h1
 {
@@ -3716,6 +3777,12 @@
 {
     font-size: 10px;
 }
+
+.solution-card
+{
+    height: 360px;
+}
+
 
 /* ******************************************************************* */
 
@@ -4196,6 +4263,12 @@
     margin-bottom: 7px;
 }
 
+.core-item-body-content p
+{
+    font-size: 12px;
+    line-height: 18px;
+}
+
 .core-item-header::after
 {
     font-size: 15px;
@@ -4299,7 +4372,8 @@
 @media screen and (max-width:480px){
 
 .nav {
-    padding: 1rem;
+    margin: 0;
+    padding: 0;
 }
 .nav-btn {
     display: inline-block;
@@ -4313,7 +4387,7 @@
     width: 50px;
     height: 50px;
     padding: 13px;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 .nav-btn label span {
     display: block;
@@ -4330,7 +4404,7 @@
     background-color: #4FAEAA;
     height: 0;
     transition: all 0.3s ease-in;
-    top: 93px;
+    top: 60px;
     left: 0;
     overflow: hidden;
     z-index: 9;
@@ -4554,6 +4628,11 @@
     font-size: 15px;
 }
 
+.solution-card
+{
+    height: 360px;
+}
+
 /* ************************************************************** */
 
 .brand-head-btn a
@@ -4743,7 +4822,7 @@
 {
     width: 400px;
     color: #000;
-    font-size: 10px;
+    font-size: 14px;
     margin-left: 1px;
 }
 
@@ -5190,6 +5269,12 @@
     font-size: 10px;
     line-height: 15px;
     margin-bottom: 7px;
+}
+
+.core-item-body-content p
+{
+    font-size: 12px;
+    line-height: 18px;
 }
 
 .core-item-header::after
