@@ -1155,6 +1155,7 @@
 
 .review-txt p
 {
+    width: 100%;
     font-size: 14px;
 }
 
@@ -1298,12 +1299,17 @@
     height: 320px;
 }
 
+.solution-card p
+{
+    font-size: 14px;
+}
+
 .solution-btn
 {
     position: absolute;
     z-index: 1;
     bottom: 10px;
-    left: 300px;
+    left: 285px;
     font-size: 15px;
 }
 
@@ -1402,21 +1408,26 @@
     margin-bottom: 7px;
 }
 
+.loved-food-txt span
+{
+    font-size: 14px;
+}
+
 .loved-food-txt p
 {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .loved-food-btn a
 {
     padding: 10px 20px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .loved-food-btn a:hover
 {
     padding: 10px 20px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .loved-food-img
@@ -1459,13 +1470,13 @@
 
 .shipping-service h5
 {
-    font-size: 12px;
+    font-size: 17px;
     margin-bottom: 7px;
 }
 
 .shipping-service p
 {
-    font-size: 8px;
+    font-size: 12px;
 }
 
 .footer a,p
@@ -2243,7 +2254,7 @@
 
 .core-value-txt p
 {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .core-item-img img
@@ -2253,20 +2264,20 @@
 
 .core-item-cnt-head h6
 {
-    font-size: 13px;
+    font-size: 15px;
     margin-bottom: 7px;
 }
 
 .core-item-cnt-head p
 {
-    font-size: 10px;
+    font-size: 13px;
     line-height: 15px;
     margin-bottom: 7px;
 }
 
 .core-item-body-content p
 {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 18px;
 }
 
@@ -2291,7 +2302,7 @@
 
 .who-we-txt p
 {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .who-we-main img
@@ -2311,7 +2322,12 @@
 
 .mission-cnt-txt p
 {
-    font-size: 11px;
+    font-size: 14px;
+}
+
+.mission-cnt-txt span
+{
+    font-size: 14px;
 }
 
 .terms-item-cnt-head h5
@@ -2508,8 +2524,19 @@
 }   
 /* ************************************************************** */
 
+.loved-food-txt span
+{
+    font-size: 14px;
+}
+
+.loved-food-txt p
+{
+    font-size: 14px;
+}
+
 .review-txt p
 {
+    width: 100%;
     font-size: 14px;
 }
 
@@ -2624,7 +2651,6 @@
 .brand
 {
     margin-top: 40px;
-    margin-bottom: -60px;
 }
 
 .brand-title h6
@@ -2757,13 +2783,13 @@
 
 .shipping-service h5
 {
-    font-size: 12px;
+    font-size: 16px;
     margin-bottom: 7px;
 }
 
 .shipping-service p
 {
-    font-size: 8px;
+    font-size: 11px;
 }
 
 .footer a,p
@@ -3272,7 +3298,7 @@
 
 .test-food p
 {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .btn-wrap-about
@@ -3328,20 +3354,20 @@
 
 .core-item-cnt-head h6
 {
-    font-size: 13px;
+    font-size: 15px;
     margin-bottom: 7px;
 }
 
 .core-item-cnt-head p
 {
-    font-size: 10px;
+    font-size: 13px;
     line-height: 15px;
     margin-bottom: 7px;
 }
 
 .core-item-body-content p
 {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 18px;
 }
 
@@ -3366,7 +3392,7 @@
 
 .who-we-txt p
 {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .who-we-main img
@@ -3376,7 +3402,7 @@
 
 .mission-cnt-txt h6
 {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .mission-cnt-txt h2
@@ -3386,7 +3412,7 @@
 
 .mission-cnt-txt p
 {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .terms-item-cnt-head h5
@@ -3533,6 +3559,11 @@
     margin-bottom: 30px;
 }
 
+.solution-card p
+{
+    font-size: 14px;
+}
+
 }
 
 /* ******************************************************************************************************************************************************************************************************************************************************************************************************** */
@@ -3647,7 +3678,7 @@
     position: absolute;
     z-index: 1;
     bottom: 10px;
-    left: 140px;
+    left: 190px;
     font-size: 15px;
 }
 
@@ -3664,7 +3695,6 @@
 .brand
 {
     margin-top: 40px;
-    margin-bottom: -60px;
 }
 
 .brand-title h6
@@ -3742,7 +3772,12 @@
 
 .loved-food-txt p
 {
-    font-size: 12px;
+    font-size: 14px;
+}
+
+.loved-food-txt span
+{
+    font-size: 14px;
 }
 
 .loved-food-btn a
@@ -4118,6 +4153,7 @@
         z-index: 1;
         top: 70px;
         right: 40px;
+        margin-top: 10px;
     }
     
     .franchise-txt h2
@@ -4330,8 +4366,8 @@
 
 .tfood-img-txt h6
 {
-    width: 100px;
-    font-size: 10px;
+    width: 100%;
+    font-size: 20px;
     color: #fff;
     font-family: 'Nunito-Bold';
     margin-bottom: 10px;
@@ -4340,9 +4376,9 @@
 .tfood-img-txt p
 {
     color: #fff;
-    width: 100px;
-    font-size: 8px;
-    margin-bottom: 10px;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 15px;
 }
 
 .tfood-img-btn a
@@ -4351,8 +4387,8 @@
     background: #42928f;
     border: 2px solid #42928f;
     font-family: 'Nunito-Bold';
-    font-size: 10px;
-    padding: 7px 15px;
+    font-size: 13px;
+    padding: 10px 20px;
     border-radius: 50px;
 }
 
@@ -4362,8 +4398,8 @@
     background: transparent;
     border: 2px solid #fff;
     font-family: 'Nunito-Bold';
-    font-size: 10px;
-    padding: 7px 15px;
+    font-size: 13px;
+    padding: 10px 20px;
     border-radius: 50px;
 }
 
@@ -4428,7 +4464,7 @@
 
 .test-food p
 {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .btn-wrap-about
@@ -4457,7 +4493,7 @@
 
 .core-value-txt p
 {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .core-item-img img
@@ -4467,13 +4503,13 @@
 
 .core-item-cnt-head h6
 {
-    font-size: 13px;
+    font-size: 15px;
     margin-bottom: 7px;
 }
 
 .core-item-cnt-head p
 {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 15px;
     margin-bottom: 7px;
 }
@@ -4491,6 +4527,12 @@
     height: 17px;
 }
 
+.partner-img img {
+    max-width: 100px;
+    max-height: 100px;
+    aspect-ratio: 2/2;
+}
+
 /* ******************************************************* */
 
 .who-we-txt h6
@@ -4505,7 +4547,7 @@
 
 .who-we-txt p
 {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .who-we-main img
@@ -4525,7 +4567,7 @@
 
 .mission-cnt-txt p
 {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .terms-item-cnt-head h5
@@ -4681,6 +4723,12 @@
 .our-menu-heading h6::after
 {
     display: none;
+}
+
+.partner-img .partner-img-days
+{
+    max-width: 60px;
+    margin-top: 75px;
 }
 
 }
@@ -4886,13 +4934,13 @@
     position: absolute;
     z-index: 1;
     bottom: 10px;
-    left: 70px;
+    left: 150px;
     font-size: 15px;
 }
 
 .solution-card
 {
-    padding: 20px;
+    padding: 30px;
 }
 
 .st-img-bg img
@@ -4915,6 +4963,11 @@
     font-size: 14px;
     padding: 10px 20px;
 }
+
+/* .franchise img
+{
+    margin-top: -50px;
+} */
 
 .solution-btn a:hover
 {
@@ -4990,7 +5043,7 @@
     position: absolute;
     z-index: 9;
     bottom: 5px;
-    left: 210px;
+    left: 365px;
 }
 
 .loved-food-img img {
@@ -5073,8 +5126,8 @@
 
 .partner-img img
 {
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 85px;
+    max-height: 85px;
     aspect-ratio: 2/2;
 }
 
@@ -5282,13 +5335,13 @@
 
 .review-img img
 {
-    width: 290px;
+    width: 445px;
     height: 100%;
 }
 
 .review-txt p
 {
-    width: 260px;
+    width: 100%;
     color: #000;
     font-size: 14px;
     margin-left: 1px;
@@ -5319,7 +5372,7 @@
 {
     position: absolute;
     z-index: 1;
-    top: 60px;
+    top: 10px;
     right: 20px;
 }
 
@@ -5713,7 +5766,7 @@
 
 .core-value-txt p
 {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .core-item-img img
@@ -5723,20 +5776,20 @@
 
 .core-item-cnt-head h6
 {
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 7px;
 }
 
 .core-item-cnt-head p
 {
-    font-size: 14px;
+    font-size: 11px;
     line-height: 15px;
     margin-bottom: 7px;
 }
 
 .core-item-body-content p
 {
-    font-size: 14px;
+    font-size: 11px;
     line-height: 18px;
 }
 
@@ -5761,7 +5814,7 @@
 
 .who-we-txt p
 {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .who-we-main img
@@ -5965,8 +6018,21 @@
     display: none;
 }
 
+.partner-img .partner-img-days
+{
+    max-width: 40px;
+    margin-top: 75px;
 }
 
+.footer-before-home img
+{
+    width: 100%;
+    margin-top: -140px;
+}
+
+
+
+}
 
 
 
