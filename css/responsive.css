@@ -1,10 +1,5 @@
 @media screen and (min-width:1241px) and (max-width:1500px){
 
-.review-img img
-{
-    width: 620px;
-}
-
 .brand-head-btn a
 {
     margin-right: 30px;
@@ -1377,7 +1372,7 @@
 
 .review-img img
 {
-    width: 735px;
+    width: 100%;
     height: 100%;
 }
 
@@ -1393,7 +1388,7 @@
     position: absolute;
     z-index: 9;
     bottom: 5px;
-    left: 634px;
+    left: 89%;
 }
 
 .loved-food-txt h6
@@ -2634,7 +2629,7 @@
     position: absolute;
     z-index: 1;
     bottom: 10px;
-    left: 290px;
+    left: 35%;
     font-size: 15px;
 }
 
@@ -2701,7 +2696,7 @@
 
 .review-img img
 {
-    width: 735px;
+    width: 100%;
     height: 100%;
 }
 
@@ -2717,7 +2712,7 @@
     position: absolute;
     z-index: 9;
     bottom: 5px;
-    left: 634px;
+    left: 83%;
 }
 
 .loved-food-txt h6
@@ -3710,7 +3705,7 @@
     position: absolute;
     z-index: 1;
     bottom: 10px;
-    left: 190px;
+    left: 33%;
     font-size: 15px;
 }
 
@@ -3787,7 +3782,7 @@
     position: absolute;
     z-index: 9;
     bottom: 5px;
-    left: 368px;
+    left: 82%;
 }
 
 .loved-food-txt h6
@@ -3999,16 +3994,6 @@
 {
     width: 100%;
     height: 100%;
-}
-
-.review-arrow
-{
-    display: flex;
-
-    position: absolute;
-    z-index: 9;
-    bottom: 5px;
-    left: 464px;
 }
 
 .loved-food-img
@@ -4977,7 +4962,7 @@
     position: absolute;
     z-index: 1;
     bottom: 10px;
-    left: 150px;
+    left: 24%;
     font-size: 15px;
 }
 
@@ -5019,7 +5004,7 @@
 
 .solution-card
 {
-    height: 320px;
+    height: 350px;
 }
 
 .brand
@@ -5086,7 +5071,7 @@
     position: absolute;
     z-index: 9;
     bottom: 5px;
-    left: 365px;
+    left: 72%;
 }
 
 .loved-food-img img {
