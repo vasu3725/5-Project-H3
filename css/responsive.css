@@ -3647,7 +3647,7 @@
     position: absolute;
     z-index: 1;
     bottom: 10px;
-    left: 194px;
+    left: 140px;
     font-size: 15px;
 }
 
@@ -3915,6 +3915,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.td-food-img img
+{
+    width: 420px;
 }
 
 .review-img img
@@ -4194,6 +4199,12 @@
 
 /* ************************************************************************** */
 
+.our-menu-bg
+{
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
 .new-customer-offer-bg
 {
     background-image: url(../images/p3\ new\ customer\ offer\ bg.png);
@@ -4208,6 +4219,7 @@
 .new-customer-offer
 {
     text-align: center;
+    padding-top: 10px;
 }
 
 .new-customer-offer h2
@@ -4666,6 +4678,11 @@
     margin-bottom: 30px;
 }
 
+.our-menu-heading h6::after
+{
+    display: none;
+}
+
 }
 
 /* ******************************************************************************************************************************************************************************************************************************************************************************************************** */
@@ -4912,7 +4929,6 @@
 .brand
 {
     margin-top: 40px;
-    margin-bottom: -60px;
 }
 
 .brand-title h6
@@ -5062,10 +5078,10 @@
     aspect-ratio: 2/2;
 }
 
-.footer-bg
+/* .footer-bg
 {
     margin-top: -70px;
-}
+} */
 
 .footer a,p
 {
@@ -5074,7 +5090,7 @@
 
 .copyright p
 {
-    width: 200px;
+    width: 100%;
 }
 
 /* ************************************************************** */
@@ -5408,12 +5424,6 @@
     background-repeat: no-repeat;
     text-align: center;
     padding-top: 10px;
-}
-
-.new-customer-offer
-{
-    text-align: center;
-    padding-top: 0px;
 }
 
 .new-customer-offer h2
@@ -5950,6 +5960,10 @@
     padding: 0px;
 }
 
+.our-menu-heading h6::after
+{
+    display: none;
+}
 
 }
 
